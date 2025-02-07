@@ -1,0 +1,1172 @@
+=== ./scraper/pdfScaper.ts ===
+import * as path from 'path';
+import { ensureDir } from '../util/misc';
+import { fromPath } from 'pdf2pic';
+import OpenAI from 'openai';
+import * as fs from 'fs';
+import EnvVars from '@src/common/EnvVars';
+
+const openai = new OpenAI({
+  apiKey: EnvVars.OpenAIAPIKey,
+});
+
+interface PDFAnalysisResult {
+  hasLowRiseResidential: boolean;
+  nearbyFacilities: {
+    name: string;
+    distance: number;
+    time: string;
+  }[];
+  legalRestrictions: string;
+  salesConditions: string;
+  landShape: string;
+  stationFeatures: string;
+  businessHours: {
+    open: string;
+    close: string;
+    closedDays: string[];
+  };
+  visualFeatures: {
+    images: string[];
+    diagramUrl: string;
+  };
+  urbanPlanning: {
+    roadExpansion: string;
+    minimumPlotSize: number;
+    districtPlanning: string;
+  };
+  optimalUsage: string;
+  privateRoadBurden: boolean;
+  nearbyStations: {
+    station: string;
+    distance: number;
+    time: string;
+  }[];
+  busStop: {
+    distance: number;
+    time: string;
+  };
+  contractConditions: string;
+  referencePlan: string;
+  lastUpdated: string;
+}
+
+async function analyzePDF(pdfPath: string): Promise<PDFAnalysisResult> {
+  try {
+    const tmpDir = path.resolve('output/tmp');
+    await ensureDir(tmpDir);
+
+    // PDFを画像に変換
+    const options = {
+      density: 300,
+      saveFilename: path.basename(pdfPath, '.pdf'),
+      savePath: tmpDir,
+      format: 'png' as const,
+      width: 2000,
+      height: 2000,
+    };
+
+    const convert = fromPath(pdfPath, options);
+    await convert(1, { responseType: 'image' });
+    console.log('PDFを画像に変換しました');
+
+    const imagePath = path.join(tmpDir, `${options.saveFilename}.1.png`);
+    const imageBase64 = fs.readFileSync(imagePath, { encoding: 'base64' });
+
+    // OpenAI APIを使用して画像を解析
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o',
+      messages: [
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'image_url',
+              image_url: {
+                url: `data:image/png;base64,${imageBase64}`,
+              },
+            },
+            {
+              type: 'text',
+              text: '不動産物件の図面から以下の情報を抽出してください。日本語で回答してください。',
+            },
+          ],
+        },
+      ],
+      response_format: {
+        type: 'json_schema',
+        json_schema: {
+          name: 'property_schema',
+          strict: true,
+          schema: {
+            type: 'object',
+            properties: {
+              hasLowRiseResidential: {
+                type: 'boolean',
+                description: '第一種低層住居専用地域かどうか',
+              },
+              nearbyFacilities: {
+                type: 'array',
+                description: '周辺施設情報',
+                items: {
+                  type: 'object',
+                  properties: {
+                    name: {
+                      type: 'string',
+                      description: '施設の名前',
+                    },
+                    distance: {
+                      type: 'number',
+                      description: '施設までの距離',
+                    },
+                    time: {
+                      type: 'string',
+                      description: '施設までの所要時間',
+                    },
+                  },
+                  required: ['name', 'distance', 'time'],
+                  additionalProperties: false,
+                },
+              },
+              legalRestrictions: {
+                type: 'string',
+                description: '法的条件',
+              },
+              salesConditions: {
+                type: 'string',
+                description: '販売条件',
+              },
+              landShape: {
+                type: 'string',
+                description: '土地の形状',
+              },
+              stationFeatures: {
+                type: 'string',
+                description: '最寄駅の特徴',
+              },
+              businessHours: {
+                type: 'object',
+                description: '営業情報',
+                properties: {
+                  open: {
+                    type: 'string',
+                    description: '開店時間',
+                  },
+                  close: {
+                    type: 'string',
+                    description: '閉店時間',
+                  },
+                  closedDays: {
+                    type: 'array',
+                    description: '定休日',
+                    items: {
+                      type: 'string',
+                    },
+                  },
+                },
+                required: ['open', 'close', 'closedDays'],
+                additionalProperties: false,
+              },
+              visualFeatures: {
+                type: 'object',
+                description: '視覚的特徴',
+                properties: {
+                  images: {
+                    type: 'array',
+                    description: '画像のリスト',
+                    items: {
+                      type: 'string',
+                    },
+                  },
+                  diagramUrl: {
+                    type: 'string',
+                    description: '図面のURL',
+                  },
+                },
+                required: ['images', 'diagramUrl'],
+                additionalProperties: false,
+              },
+              urbanPlanning: {
+                type: 'object',
+                description: '都市計画関連情報',
+                properties: {
+                  roadExpansion: {
+                    type: 'string',
+                    description: '道路拡幅の情報',
+                  },
+                  minimumPlotSize: {
+                    type: 'number',
+                    description: '最小敷地面積',
+                  },
+                  districtPlanning: {
+                    type: 'string',
+                    description: '区画計画の情報',
+                  },
+                },
+                required: [
+                  'roadExpansion',
+                  'minimumPlotSize',
+                  'districtPlanning',
+                ],
+                additionalProperties: false,
+              },
+              optimalUsage: {
+                type: 'string',
+                description: '最適用途',
+              },
+              privateRoadBurden: {
+                type: 'boolean',
+                description: '私道負担の有無',
+              },
+              nearbyStations: {
+                type: 'array',
+                description: '複数の最寄駅情報',
+                items: {
+                  type: 'object',
+                  properties: {
+                    station: {
+                      type: 'string',
+                      description: '駅名',
+                    },
+                    distance: {
+                      type: 'number',
+                      description: '駅までの距離',
+                    },
+                    time: {
+                      type: 'string',
+                      description: '駅までの所要時間',
+                    },
+                  },
+                  required: ['station', 'distance', 'time'],
+                  additionalProperties: false,
+                },
+              },
+              busStop: {
+                type: 'object',
+                description: 'バス停との距離',
+                properties: {
+                  distance: {
+                    type: 'number',
+                    description: 'バス停までの距離',
+                  },
+                  time: {
+                    type: 'string',
+                    description: 'バス停までの所要時間',
+                  },
+                },
+                required: ['distance', 'time'],
+                additionalProperties: false,
+              },
+              contractConditions: {
+                type: 'string',
+                description: '契約条件',
+              },
+              referencePlan: {
+                type: 'string',
+                description: '参考プラン',
+              },
+              lastUpdated: {
+                type: 'string',
+                description: '最終更新日',
+              },
+            },
+            required: [
+              'hasLowRiseResidential',
+              'nearbyFacilities',
+              'legalRestrictions',
+              'salesConditions',
+              'landShape',
+              'stationFeatures',
+              'businessHours',
+              'visualFeatures',
+              'urbanPlanning',
+              'optimalUsage',
+              'privateRoadBurden',
+              'nearbyStations',
+              'busStop',
+              'contractConditions',
+              'referencePlan',
+              'lastUpdated',
+            ],
+            additionalProperties: false,
+          },
+        },
+      },
+      temperature: 1,
+      max_tokens: 10000,
+      top_p: 1,
+      frequency_penalty: 0,
+      presence_penalty: 0,
+    });
+
+    if (!response.choices[0].message.content) {
+      throw new Error('APIからの応答が空です');
+    }
+
+    const result = JSON.parse(
+      response.choices[0].message.content
+    ) as PDFAnalysisResult;
+    return result;
+  } catch (error) {
+    console.error('PDF解析エラー:', error);
+    throw error;
+  }
+}
+
+export { analyzePDF, PDFAnalysisResult };
+
+
+=== ./types/index.ts ===
+export interface Property {
+  /** 物件タイトル */
+  title: string;
+  /** 物件番号 */
+  propertyNumber: string;
+  /** 物件種目（土地、戸建て等） */
+  propertyType: string;
+  /** 所在地 */
+  location: string;
+  /** 取引態様（媒介、売主等） */
+  transactionType: string;
+  /** 価格（円） */
+  price: number;
+  /** 用途地域 */
+  zoneType: string;
+  /** 取引状況（商談中、売止め等） */
+  transactionStatus: string;
+  /** 建ぺい率（%） */
+  buildingCoverage: number;
+  /** 土地面積（㎡） */
+  size: number;
+  /** ㎡単価（円/㎡） */
+  pricePerSqm: number;
+  /** 坪単価（円/坪） */
+  pricePerTsubo: number;
+  /** 最寄駅 */
+  station: string;
+  /** 交通アクセス */
+  access: string;
+  /** 容積率（%） */
+  floorAreaRatio: number;
+  /** 接道状況 */
+  roadAccess: string;
+  /** 販売会社名 */
+  company: string;
+  /** 道路の間口 */
+  frontage: string;
+  /** 販売会社の電話番号 */
+  phoneNumber: string;
+  /** 物件説明文 */
+  description: string;
+  /** PDFファイルのパス */
+  pdfUrl: string;
+  /** 第一種低層住居専用地域かどうか */
+  hasLowRiseResidential: boolean;
+
+  // 以下はPDFから抽出する情報
+
+  /** 周辺施設情報 */
+  nearbyFacilities: { name: string; distance: number; time: string }[];
+  /** 法的条件 */
+  legalRestrictions: string;
+  /** 販売条件 */
+  salesConditions: string;
+  /** 土地の形状 */
+  landShape: string;
+  /** 最寄駅の特徴 */
+  stationFeatures: string;
+  /** 営業情報 */
+  businessHours: { open: string; close: string; closedDays: string[] };
+  /** 視覚的特徴 */
+  visualFeatures: { images: string[]; diagramUrl: string };
+  /** 都市計画関連情報 */
+  urbanPlanning: { roadExpansion: string; minimumPlotSize: number; districtPlanning: string };
+  /** 最適用途 */
+  optimalUsage: string;
+  /** 私道負担の有無 */
+  privateRoadBurden: boolean;
+  /** 複数の最寄駅情報 */
+  nearbyStations: { station: string; distance: number; time: string }[];
+  /** バス停との距離 */
+  busStop: { distance: number; time: string };
+  /** 契約条件 */
+  contractConditions: string;
+  /** 参考プラン */
+  referencePlan: string;
+  /** 最終更新日 */
+  lastUpdated: string;
+}
+export interface Credentials {
+  username: string;
+  password: string;
+}
+
+export interface PDFAnalysisResult {
+  hasLowRiseResidential: boolean;
+  zoneType: string;
+}
+
+export interface CSVOptions {
+  outputPath: string;
+  encoding?: string;
+  append?: boolean;
+}
+
+
+=== ./util/csv.ts ===
+import { createObjectCsvWriter } from 'csv-writer';
+import { Property } from '@src/types';
+import * as path from 'path';
+import { ensureDir } from './misc';
+
+async function exportToCSV(
+  properties: Property[],
+  outputPath: string
+): Promise<void> {
+  const csvWriter = createObjectCsvWriter({
+    path: outputPath,
+    header: [
+      { id: 'title', title: '物件名' },
+      { id: 'price', title: '価格' },
+      { id: 'location', title: '所在地' },
+      { id: 'size', title: '面積' },
+      { id: 'description', title: '説明' },
+      { id: 'pdfUrl', title: '図面URL' },
+      { id: 'hasLowRiseResidential', title: '第一種低層住居' },
+      { id: 'zoneType', title: '用途地域' },
+    ],
+    encoding: 'utf8',
+    append: false,
+  });
+
+  try {
+    // 出力ディレクトリの作成
+    const dir = path.dirname(outputPath);
+    await ensureDir(dir);
+
+    // CSV出力
+    await csvWriter.writeRecords(
+      properties.map((property) => ({
+        ...property,
+        // boolean値を日本語に変換
+        hasLowRiseResidential: property.hasLowRiseResidential ? 'あり' : 'なし',
+        // 金額をカンマ区切りに
+        price: property.price.toLocaleString(),
+      }))
+    );
+
+    console.log(`CSVファイルを出力しました: ${outputPath}`);
+  } catch (error) {
+    console.error('CSV出力エラー:', error);
+    throw error;
+  }
+}
+
+export { exportToCSV };
+
+
+=== ./util/puppeteerExtensions.ts ===
+import { ClickOptions, ElementHandle, Page } from 'puppeteer';
+import { tick } from './misc';
+
+declare module 'puppeteer' {
+  interface ElementHandle {
+    click(options?: ClickOptions): Promise<void>;
+    select(...values: string[]): Promise<string[]>;
+  }
+  interface Page {
+    $abs(selector: string): Promise<ElementHandle>;
+    getSelectByLabel(label: string): Promise<ElementHandle>;
+    clickRadioOrCheckboxByLabel(label: string): Promise<void>;
+    getTextInputByLabel(labelText: string): Promise<ElementHandle>;
+  }
+}
+
+// オリジナルのclickメソッドを保存
+// eslint-disable-next-line @typescript-eslint/unbound-method
+const originalClick = ElementHandle.prototype.click;
+
+// clickメソッドをオーバーライド
+ElementHandle.prototype.click = async function (
+  this: ElementHandle,
+  options?: ClickOptions
+): Promise<void> {
+  await originalClick.call(this, options);
+  await tick(2000);
+};
+
+// オリジナルのselectメソッドを保存
+// eslint-disable-next-line @typescript-eslint/unbound-method
+const originalSelect = ElementHandle.prototype.select;
+
+// selectメソッドをオーバーライド
+ElementHandle.prototype.select = async function (
+  this: ElementHandle,
+  ...values: string[]
+): Promise<string[]> {
+  const result = await originalSelect.call(this, ...values);
+  await tick(1000);
+  return result;
+};
+
+Page.prototype.$abs = async function (
+  this: Page,
+  selector: string
+): Promise<ElementHandle> {
+  const el = await this.$(selector);
+  if (!el) {
+    console.log(`Element not found: ${selector}`);
+    await tick(10000000);
+    throw new Error(`Element not found: ${selector}`);
+  }
+  return el;
+};
+
+Page.prototype.getSelectByLabel = async function (
+  this: Page,
+  label: string
+): Promise<ElementHandle> {
+  return await this.$abs(
+    `xpath///select[../../div[contains(@class,"p-label") and ./span[text()="${label}"]]]`
+  );
+};
+
+Page.prototype.clickRadioOrCheckboxByLabel = async function (
+  this: Page,
+  label: string
+): Promise<void> {
+  const el = await this.$abs(
+    `xpath///input[(@type = "radio" or @type = "checkbox") and ../label[text()="${label}"]]`
+  );
+  await el.click();
+};
+
+export async function selectByText(
+  selectEl: ElementHandle,
+  label: string
+): Promise<void> {
+  const options = await selectEl.$$('option');
+  for (const option of options) {
+    const text = await option.evaluate((el) => el.textContent);
+    if (text === label) {
+      const value = await option.evaluate((el) => el.value);
+      await selectEl.select(value);
+      break;
+    }
+  }
+}
+
+Page.prototype.getTextInputByLabel = async function (
+  this: Page,
+  labelText: string
+): Promise<ElementHandle> {
+  return await this.$abs(
+    `xpath///input[@type="text" and ../../../../div[contains(@class,"p-label") and ./span[contains(text(),"${labelText}")]]]`
+  );
+};
+
+
+=== ./util/misc.ts ===
+import axios from 'axios';
+
+/**
+ * Miscellaneous shared functions go here.
+ */
+
+/**
+ * Get a random number between 1 and 1,000,000,000,000
+ */
+export function getRandomInt(): number {
+  return Math.floor(Math.random() * 1_000_000_000_000);
+}
+
+/**
+ * Wait for a certain number of milliseconds.
+ */
+export function tick(milliseconds?: number): Promise<void> {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, milliseconds ?? 2147483647);
+  });
+}
+
+import * as fs from 'fs';
+import * as path from 'path';
+
+/**
+ * 指定されたミリ秒待機する
+ */
+export function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+/**
+ * ディレクトリが存在しない場合は作成する
+ */
+export async function ensureDir(dirPath: string): Promise<void> {
+  try {
+    await fs.promises.access(dirPath);
+  } catch {
+    await fs.promises.mkdir(dirPath, { recursive: true });
+  }
+}
+
+/**
+ * ファイルをダウンロードして保存する
+ */
+export async function downloadFile(
+  url: string,
+  outputDir: string
+): Promise<string> {
+  const fileName = path.basename(url);
+  const filePath = path.join(outputDir, fileName);
+
+  await ensureDir(outputDir);
+
+  const response = await axios.get<Buffer>(url, {
+    responseType: 'arraybuffer',
+  });
+  await fs.promises.writeFile(filePath, response.data);
+
+  return filePath;
+}
+
+export async function emptyDir(dirPath: string): Promise<void> {
+  await ensureDir(dirPath);
+  const files = fs.readdirSync(dirPath);
+  for (const file of files) {
+    fs.unlinkSync(path.join(dirPath, file));
+  }
+}
+
+
+=== ./common/EnvVars.ts ===
+/* eslint-disable n/no-process-env */
+
+export default {
+  PROFILE_DIR: process.env.PROFILE_DIR ?? './profiles/development',
+  REINS_USERNAME: process.env.REINS_USERNAME ?? '',
+  REINS_PASSWORD: process.env.REINS_PASSWORD ?? '',
+  REQUEST_INTERVAL: parseInt(process.env.REQUEST_INTERVAL ?? '2000', 10),
+  OpenAIAPIKey: process.env.OPENAI_API_KEY ?? '',
+} as const;
+
+
+=== ./common/misc.ts ===
+export enum NodeEnvs {
+  Dev = 'development',
+  Test = 'test',
+  Production = 'production'
+}
+
+=== ./scripts/exportToCsv.ts ===
+import { createObjectCsvWriter } from 'csv-writer';
+import { Property } from '../types';
+import * as path from 'path';
+import * as fs from 'fs';
+
+async function exportToCsv(properties: Property[], outputCsvPath: string): Promise<void> {
+  try {
+    // 出力ディレクトリの作成
+    const outputDir = path.dirname(outputCsvPath);
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // CSVライターの設定
+    const csvWriter = createObjectCsvWriter({
+      path: outputCsvPath,
+      header: [
+        { id: 'propertyNumber', title: '物件番号' },
+        { id: 'propertyType', title: '物件種目' },
+        { id: 'location', title: '所在地' },
+        { id: 'price', title: '価格' },
+        { id: 'size', title: '土地面積(㎡)' },
+        { id: 'pricePerSqm', title: '㎡単価' },
+        { id: 'pricePerTsubo', title: '坪単価' },
+        { id: 'transactionType', title: '取引態様' },
+        { id: 'transactionStatus', title: '取引状況' },
+        { id: 'buildingCoverage', title: '建ぺい率(%)' },
+        { id: 'floorAreaRatio', title: '容積率(%)' },
+        { id: 'zoneType', title: '用途地域' },
+        { id: 'hasLowRiseResidential', title: '第一種低層住居' },
+        { id: 'station', title: '最寄駅' },
+        { id: 'access', title: '交通' },
+        { id: 'roadAccess', title: '接道状況' },
+        { id: 'frontage', title: '接道' },
+        { id: 'company', title: '販売会社' },
+        { id: 'phoneNumber', title: '電話番号' },
+        { id: 'landShape', title: '土地形状' },
+        { id: 'legalRestrictions', title: '法的制限' },
+        { id: 'salesConditions', title: '販売条件' },
+        { id: 'contractConditions', title: '契約条件' },
+        { id: 'optimalUsage', title: '最適用途' },
+        { id: 'privateRoadBurden', title: '私道負担' },
+        { id: 'lastUpdated', title: '最終更新日' },
+        { id: 'nearbyFacilities', title: '周辺施設' },
+        { id: 'nearbyStations', title: '最寄駅情報' },
+        { id: 'busStop', title: 'バス停情報' },
+      ],
+      encoding: 'utf8',
+    });
+
+    // データの整形
+    const records = properties.map(property => ({
+      ...property,
+      // 数値のフォーマット
+      price: property.price.toLocaleString(),
+      pricePerSqm: property.pricePerSqm.toLocaleString(),
+      pricePerTsubo: property.pricePerTsubo.toLocaleString(),
+      buildingCoverage: `${property.buildingCoverage}%`,
+      floorAreaRatio: `${property.floorAreaRatio}%`,
+      // ブール値を日本語に変換
+      hasLowRiseResidential: property.hasLowRiseResidential ? '○' : '☓',
+      privateRoadBurden: property.privateRoadBurden ? 'あり' : 'なし',
+      // 配列データの整形
+      nearbyFacilities: property.nearbyFacilities
+        ?.map(f => `${f.name}(${f.distance}m, ${f.time})`)
+        .join('、') ?? '',
+      nearbyStations: property.nearbyStations
+        ?.map(s => `${s.station}(${s.distance}m, ${s.time})`)
+        .join('、') ?? '',
+      // オブジェクトデータの整形
+      busStop: property.busStop
+        ? `${property.busStop.distance}m, ${property.busStop.time}`
+        : '',
+    }));
+
+    // CSV出力
+    await csvWriter.writeRecords(records);
+    console.log(`CSVファイルを出力しました: ${outputCsvPath}`);
+  } catch (error) {
+    console.error('CSV出力エラー:', error);
+    throw error;
+  }
+}
+
+export { exportToCsv }; 
+
+=== ./index.ts ===
+import './util/puppeteerExtensions';
+import { Browser } from 'puppeteer';
+import * as dotenv from 'dotenv';
+import EnvVars from './common/EnvVars';
+import { ensureDir, emptyDir, tick } from './util/misc';
+import { initBrowser } from './services/browser';
+import { login } from './services/auth';
+import { searchProperties, SearchCriteria } from './services/search';
+import { scrapeProperties } from './services/scraper';
+import { exportToCsv } from './scripts/exportToCsv';
+import * as path from 'path';
+import * as fs from 'fs';
+
+// 環境変数の読み込み
+dotenv.config();
+
+async function main() {
+  let browser: Browser | null = null;
+  try {
+    // 出力ディレクトリの準備
+    await ensureDir('output');
+    await ensureDir('output/pdf');
+    await ensureDir('output/tmp');
+    await emptyDir(path.resolve('output/pdf'));
+    await emptyDir(path.resolve('output/tmp'));
+
+    // 既存のCSVとJSONファイルを削除
+    const outputFiles = [
+      path.join('output', 'properties.csv'),
+      path.join('output', 'properties.json'),
+    ];
+
+    for (const file of outputFiles) {
+      if (fs.existsSync(file)) {
+        fs.unlinkSync(file);
+        console.log(`${file}を削除しました`);
+      }
+    }
+
+    browser = await initBrowser();
+    const page = await browser.newPage();
+
+    const cdpSession = await page.createCDPSession();
+    await cdpSession.send('Page.setDownloadBehavior', {
+      behavior: 'allow',
+      downloadPath: 'output/pdf',
+    });
+
+    const searchCriteria: SearchCriteria = {
+      prefecture: '東京都',
+      city: '世田谷区',
+      propertyType: '売土地',
+    };
+
+    console.log('レインズにログインしてます...');
+    await login(page, {
+      username: EnvVars.REINS_USERNAME,
+      password: EnvVars.REINS_PASSWORD,
+    });
+
+    console.log('物件検索を開始します...');
+    await searchProperties(page, searchCriteria);
+
+    console.log('物件情報の取得を開始します...');
+    const properties = await scrapeProperties(page);
+
+    // 結果の出力
+    console.log(`${properties.length}件の物件情報を取得しました`);
+    await exportToCsv(properties, path.join('output', 'properties.csv'));
+
+    // JSON形式でも保存
+    fs.writeFileSync(
+      path.join('output', 'properties.json'),
+      JSON.stringify(properties, null, 2),
+      'utf-8'
+    );
+
+    await tick(EnvVars.REQUEST_INTERVAL);
+  } catch (error) {
+    console.error('エラーが発生しました:', error);
+  } finally {
+    if (browser) {
+      console.log('ブラウザを終了しました');
+    }
+    await tick();
+  }
+}
+
+process.on('unhandledRejection', (error) => {
+  console.error('未処理のPromise rejection:', error);
+  process.exit(1);
+});
+
+process.on('SIGINT', () => {
+  console.log('\n処理を中断します...');
+  process.exit(0);
+});
+
+if (require.main === module) {
+  main();
+}
+
+export { main, SearchCriteria };
+
+
+=== ./services/search.ts ===
+import { Page } from 'puppeteer';
+import { selectByText } from '../util/puppeteerExtensions';
+
+export interface SearchCriteria {
+  prefecture: string;
+  city: string;
+  propertyType: string;
+}
+
+export async function searchProperties(
+  page: Page,
+  criteria: SearchCriteria
+): Promise<void> {
+  const goSearchPageBtn = await page.$abs(
+    'xpath///button[text()="売買 物件検索"]'
+  );
+  await goSearchPageBtn.click();
+
+  // 物件種別の選択
+  const propertyTypeSelect = await page.getSelectByLabel('物件種別１');
+  await selectByText(propertyTypeSelect, criteria.propertyType);
+
+  // チェックボックスの選択
+  await page.clickRadioOrCheckboxByLabel('図面ありのみ');
+
+  // 都道府県名の入力
+  const prefInput = await page.getTextInputByLabel('都道府県名');
+  await prefInput.type(criteria.prefecture);
+
+  // 所在地名１の入力
+  const cityInput = await page.getTextInputByLabel('所在地名１');
+  await cityInput.type(criteria.city);
+
+  // 検索実行
+  const searchButton = await page.$abs('xpath///button[text()="検索"]');
+  await searchButton.click();
+} 
+
+=== ./services/browser.ts ===
+import puppeteer, { Browser } from 'puppeteer';
+import EnvVars from '../common/EnvVars';
+import * as fs from 'fs';
+import * as path from 'path';
+
+export async function initBrowser(): Promise<Browser> {
+  // PDFダウンロードフォルダの作成
+  const pdfDir = path.resolve('./output/pdf');
+  if (!fs.existsSync(pdfDir)) {
+    fs.mkdirSync(pdfDir, { recursive: true });
+  }
+
+  return await puppeteer.launch({
+    headless: false,
+    userDataDir: EnvVars.PROFILE_DIR,
+    defaultViewport: null,
+    args: ['--start-maximized'],
+  });
+}
+
+
+=== ./services/scraper.ts ===
+import { Page } from 'puppeteer';
+import { Property } from '../types';
+import { tick } from '../util/misc';
+import * as fs from 'fs';
+import * as path from 'path';
+import { analyzePDF } from '../scraper/pdfScaper';
+import { exportToCsv } from '@src/scripts/exportToCsv';
+
+async function waitForDownload(): Promise<string> {
+  const outputDir = path.resolve('output/pdf');
+  const beforeFiles = new Set(fs.readdirSync(outputDir));
+  const maxWaitTime = 10000; // 10秒
+  const startTime = Date.now();
+
+  return new Promise((resolve, reject) => {
+    const checkNewFile = () => {
+      const currentFiles = fs.readdirSync(outputDir);
+      const newFile = currentFiles.find(
+        (file) => !beforeFiles.has(file) && !file.endsWith('.crdownload')
+      );
+
+      if (newFile) {
+        resolve(newFile);
+      } else if (Date.now() - startTime > maxWaitTime) {
+        reject(new Error('ダウンロードがタイムアウトしました'));
+      } else {
+        setTimeout(checkNewFile, 100);
+      }
+    };
+
+    checkNewFile();
+  });
+}
+
+export async function scrapeProperties(page: Page): Promise<Property[]> {
+  // 物件情報の取得
+  const properties = await page.evaluate(() => {
+    const properties: Property[] = [];
+    const rows = document.querySelectorAll('.p-table-body-row');
+
+    // ヘッダーの位置とテキストのマッピングを作成
+    const headerPositions = new Map<string, string>();
+    document.querySelectorAll('.p-table-header-item').forEach((header) => {
+      const text = header.textContent?.trim() ?? '';
+      const style = header.getAttribute('style') ?? '';
+      if (text) {
+        headerPositions.set(style, text);
+      }
+    });
+
+    // スタイル属性からヘッダーテキストへの逆引きマップを作成
+    const styleToHeader = new Map<string, string>();
+    headerPositions.forEach((headerText, style) => {
+      styleToHeader.set(style, headerText);
+    });
+
+    rows.forEach((row) => {
+      const items = row.querySelectorAll('.p-table-body-item');
+      const valueMap = new Map<string, string>();
+
+      items.forEach((item) => {
+        const style = item.getAttribute('style') ?? '';
+        const text = item.textContent?.trim() ?? '';
+        const headerText = styleToHeader.get(style);
+        if (headerText) {
+          valueMap.set(headerText, text);
+        }
+      });
+
+      const property: Property = {
+        title: valueMap.get('物件番号') ?? '',
+        propertyNumber: valueMap.get('物件番号') ?? '',
+        propertyType: valueMap.get('物件種目') ?? '',
+        location: valueMap.get('所在地') ?? '',
+        transactionType: valueMap.get('取引態様') ?? '',
+        price: parseInt((valueMap.get('価格') ?? '0').replace(/[^0-9]/g, '')),
+        zoneType: valueMap.get('用途地域') ?? '',
+        transactionStatus: valueMap.get('取引状況') ?? '',
+        buildingCoverage: parseInt(
+          (valueMap.get('建ぺい率') ?? '0').replace(/[^0-9]/g, '')
+        ),
+        size: parseFloat(
+          (valueMap.get('土地面積') ?? '0').replace(/[^0-9.]/g, '')
+        ),
+        pricePerSqm: parseFloat(
+          (valueMap.get('㎡単価') ?? '0').replace(/[^0-9.]/g, '')
+        ),
+        pricePerTsubo: parseFloat(
+          (valueMap.get('坪単価') ?? '0').replace(/[^0-9.]/g, '')
+        ),
+        station: valueMap.get('沿線駅') ?? '',
+        access: valueMap.get('交通') ?? '',
+        floorAreaRatio: parseInt(
+          (valueMap.get('容積率') ?? '0').replace(/[^0-9]/g, '')
+        ),
+        roadAccess: valueMap.get('接道状況') ?? '',
+        company: valueMap.get('商号') ?? '',
+        frontage: valueMap.get('接道１') ?? '',
+        phoneNumber: valueMap.get('電話番号') ?? '',
+        description: '',
+
+        pdfUrl: '',
+        hasLowRiseResidential: false,
+        nearbyFacilities: [],
+        legalRestrictions: '',
+        salesConditions: '',
+        landShape: '',
+        stationFeatures: '',
+        businessHours: {
+          open: '',
+          close: '',
+          closedDays: [],
+        },
+        visualFeatures: {
+          images: [],
+          diagramUrl: '',
+        },
+        urbanPlanning: {
+          roadExpansion: '',
+          minimumPlotSize: 0,
+          districtPlanning: '',
+        },
+        optimalUsage: '',
+        privateRoadBurden: false,
+        nearbyStations: [],
+        busStop: {
+          distance: 0,
+          time: '',
+        },
+        contractConditions: '',
+        referencePlan: '',
+        lastUpdated: '',
+      };
+
+      properties.push(property);
+    });
+
+    return properties;
+  });
+
+  // 図面のダウンロード処理
+  console.log('図面のダウンロードを開始します...');
+  for (let i = 0; i < properties.length; i++) {
+    if (i > 10) {
+      console.log('使用上限に達したため、処理を中断します');
+      break;
+    }
+    const property = properties[i];
+    console.log(`物件 ${i + 1}/${properties.length} の図面をダウンロード中...`);
+
+    try {
+      // 図面ボタンをクリック
+      const buttons = await page.$$('xpath///button[text()="図面"]');
+      const button = buttons[i];
+
+      // ボタンを画面内に表示
+      await button.evaluate((el) => {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+      await tick(1000);
+
+      await button.focus();
+      await tick(1000);
+
+      const [filename] = await Promise.all([waitForDownload(), button.click()]);
+
+      await tick(1000); // 安全のため、少し待機
+
+      // ダウンロードしたPDFのファイル名を設定
+      property.pdfUrl = filename;
+
+      // PDFの解析
+      console.log(`物件 ${i + 1}/${properties.length} の図面を解析中...`);
+      const pdfPath = path.resolve('output/pdf', filename);
+      const analysisResult = await analyzePDF(pdfPath);
+
+      // 解析結果を物件情報に反映
+      property.hasLowRiseResidential = analysisResult.hasLowRiseResidential;
+      property.nearbyFacilities = analysisResult.nearbyFacilities;
+      property.legalRestrictions = analysisResult.legalRestrictions;
+      property.salesConditions = analysisResult.salesConditions;
+      property.landShape = analysisResult.landShape;
+      property.stationFeatures = analysisResult.stationFeatures;
+      property.businessHours = analysisResult.businessHours;
+      property.visualFeatures = analysisResult.visualFeatures;
+      property.urbanPlanning = analysisResult.urbanPlanning;
+      property.optimalUsage = analysisResult.optimalUsage;
+      property.privateRoadBurden = analysisResult.privateRoadBurden;
+      property.nearbyStations = analysisResult.nearbyStations;
+      property.busStop = analysisResult.busStop;
+      property.contractConditions = analysisResult.contractConditions;
+      property.referencePlan = analysisResult.referencePlan;
+      property.lastUpdated = analysisResult.lastUpdated;
+
+      console.log(`物件 ${i + 1}/${properties.length} の解析が完了しました`);
+
+      fs.writeFileSync(
+        'output/properties.json',
+        JSON.stringify(properties, null, 2)
+      );
+      await exportToCsv(properties, 'output/properties.csv');
+    } catch (error) {
+      console.error(`物件 ${property.propertyNumber} の図面処理に失敗:`, error);
+      property.pdfUrl = ''; // エラーの場合は空文字列を設定
+    }
+  }
+
+  return properties;
+}
+
+
+=== ./services/auth.ts ===
+import { Page } from 'puppeteer';
+import { Credentials } from '../types';
+import { tick } from '../util/misc';
+
+export async function login(page: Page, credentials: Credentials): Promise<void> {
+  try {
+    await page.goto('https://system.reins.jp/login/main/KG/GKG001200');
+
+    // ユーザー名とパスワードの入力
+    const usernameInput = await page.$('#__BVID__13');
+    const passwordInput = await page.$('#__BVID__16');
+
+    if (!usernameInput || !passwordInput) {
+      throw new Error('ログインフォームが見つかりません');
+    }
+
+    await usernameInput.type(credentials.username);
+    await passwordInput.type(credentials.password);
+
+    // 利用規約同意ボタンのクリック
+    const agreeTosBtn = await page.$('#__BVID__20');
+    if (!agreeTosBtn) {
+      throw new Error('利用規約同意ボタンが見つかりません');
+    }
+    await agreeTosBtn.click();
+
+    // 少し待機
+    await tick(2000);
+
+    // ログインボタンのクリックと遷移待ち
+    const loginBtn = await page.$('xpath///button[text()="ログイン"]');
+    if (!loginBtn) {
+      throw new Error('ログインボタンが見つかりません');
+    }
+    await loginBtn.click();
+    await page.waitForSelector('xpath///button[text()="売買 物件検索"]');
+  } catch (error) {
+    console.error('ログインに失敗しました:', error);
+    throw error;
+  }
+} 
+

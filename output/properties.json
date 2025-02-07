@@ -1,0 +1,6302 @@
+[
+  {
+    "title": "100131583320",
+    "propertyNumber": "100131583320",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺２丁目",
+    "transactionType": "専任",
+    "price": 7980,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 50,
+    "size": 128.44,
+    "pricePerSqm": 62.2,
+    "pricePerTsubo": 205.4,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　11分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス練馬センター 三井不動産リアルティ（株）三井のリハウス練馬センター",
+    "frontage": "南4.1m",
+    "phoneNumber": "03-5999-3131",
+    "description": "",
+    "pdfUrl": "100131583320.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "コンビニエンスストア",
+        "distance": 610,
+        "time": "徒歩約8分"
+      },
+      {
+        "name": "郵便局",
+        "distance": 700,
+        "time": "徒歩約9分"
+      },
+      {
+        "name": "白鷺せせらぎ公園",
+        "distance": 800,
+        "time": "徒歩約10分"
+      },
+      {
+        "name": "スーパーオオゼキ上鷺宮店",
+        "distance": 1100,
+        "time": "徒歩約14分"
+      },
+      {
+        "name": "クリエイトエス・ディー中野上鷺宮店",
+        "distance": 1200,
+        "time": "徒歩約15分"
+      },
+      {
+        "name": "洗足池小学校",
+        "distance": 750,
+        "time": "徒歩約10分"
+      },
+      {
+        "name": "武蔵野高等学校",
+        "distance": 850,
+        "time": "徒歩約11分"
+      }
+    ],
+    "legalRestrictions": "準防火地域",
+    "salesConditions": "現況:更地",
+    "landShape": "平坦",
+    "stationFeatures": "徒歩11分",
+    "businessHours": {
+      "open": "09:00",
+      "close": "20:00",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [
+        "https://example.com/image1.jpg"
+      ],
+      "diagramUrl": "https://example.com/diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "無",
+      "minimumPlotSize": 80,
+      "districtPlanning": "第1種低層住居専用地域"
+    },
+    "optimalUsage": "住宅",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "鷺ノ宮駅",
+        "distance": 870,
+        "time": "徒歩11分"
+      }
+    ],
+    "busStop": {
+      "distance": 400,
+      "time": "徒歩約5分"
+    },
+    "contractConditions": "取引態様:媒介",
+    "referencePlan": "建築条件付",
+    "lastUpdated": "2023-10-01"
+  },
+  {
+    "title": "100132318795",
+    "propertyNumber": "100132318795",
+    "propertyType": "売地",
+    "location": "東京都中野区中野２丁目",
+    "transactionType": "専任",
+    "price": 11780,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 70.48,
+    "pricePerSqm": 167.2,
+    "pricePerTsubo": 552.6,
+    "station": "中央線　中野",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　渋谷第２営業センター 住友不動産販売（株）　渋谷第２営業センター",
+    "frontage": "南4m",
+    "phoneNumber": "050-3112-9803",
+    "description": "",
+    "pdfUrl": "100132318795.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "まいばすけっと中野2丁目店",
+        "distance": 230,
+        "time": "徒歩約3分"
+      },
+      {
+        "name": "ファミリーマート",
+        "distance": 270,
+        "time": "徒歩約4分"
+      },
+      {
+        "name": "オーケー中野",
+        "distance": 440,
+        "time": "徒歩約6分"
+      },
+      {
+        "name": "スマイル中野3丁目調剤薬局",
+        "distance": 310,
+        "time": "徒歩約4分"
+      }
+    ],
+    "legalRestrictions": "準防火地域、第2種高度地区、最低敷地面積60m2、高さ制限第1種高度地区・20m",
+    "salesConditions": "建築条件付土地",
+    "landShape": "整形地",
+    "stationFeatures": "東西線始発駅",
+    "businessHours": {
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        "火",
+        "水"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "diagramUrl": "https://example.com/diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "道路交通法による緩和あり",
+      "minimumPlotSize": 60,
+      "districtPlanning": "第2種中高層住居専用地域"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "中野駅",
+        "distance": 640,
+        "time": "徒歩約8分"
+      }
+    ],
+    "busStop": {
+      "distance": 89,
+      "time": "徒歩約1分"
+    },
+    "contractConditions": "契約条件なし",
+    "referencePlan": "建物参考プラン有",
+    "lastUpdated": "2023-10-01"
+  },
+  {
+    "title": "100132318796",
+    "propertyNumber": "100132318796",
+    "propertyType": "売地",
+    "location": "東京都中野区中野２丁目",
+    "transactionType": "専任",
+    "price": 11780,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 73.16,
+    "pricePerSqm": 161.1,
+    "pricePerTsubo": 532.3,
+    "station": "中央線　中野",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　渋谷第２営業センター 住友不動産販売（株）　渋谷第２営業センター",
+    "frontage": "南4m",
+    "phoneNumber": "050-3112-9803",
+    "description": "",
+    "pdfUrl": "100132318796.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "ライフ中野新橋店",
+        "distance": 950,
+        "time": "徒歩12分"
+      },
+      {
+        "name": "城西大学附属中学校",
+        "distance": 230,
+        "time": "徒歩3分"
+      },
+      {
+        "name": "ファミリーマート中野弥生町一丁目店",
+        "distance": 400,
+        "time": "徒歩5分"
+      },
+      {
+        "name": "セブンイレブン中野弥生町1丁目店",
+        "distance": 440,
+        "time": "徒歩6分"
+      },
+      {
+        "name": "江古田保育園分園やよい",
+        "distance": 180,
+        "time": "徒歩3分"
+      }
+    ],
+    "legalRestrictions": "第一種中高層住居専用地域（準防火地域）",
+    "salesConditions": "現況：更地",
+    "landShape": "南道路に接道している長方形",
+    "stationFeatures": "中野駅まで徒歩8分",
+    "businessHours": {
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        "毎週水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "path/to/image1.jpg",
+        "path/to/image2.jpg"
+      ],
+      "diagramUrl": "path/to/diagram.jpg"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "幅員4.0m",
+      "minimumPlotSize": -1,
+      "districtPlanning": "市街化区域"
+    },
+    "optimalUsage": "閑静な住宅地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "中野駅",
+        "distance": 640,
+        "time": "徒歩8分"
+      }
+    ],
+    "busStop": {
+      "distance": -1,
+      "time": "不明"
+    },
+    "contractConditions": "契約条件なし",
+    "referencePlan": "建物参考プラン有",
+    "lastUpdated": "不明"
+  },
+  {
+    "title": "100132925739",
+    "propertyNumber": "100132925739",
+    "propertyType": "売地",
+    "location": "東京都中野区南台２丁目",
+    "transactionType": "売主",
+    "price": 5580,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 82.55,
+    "pricePerSqm": 67.6,
+    "pricePerTsubo": 223.5,
+    "station": "京王線　幡ヶ谷",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "（株）ＷＩＳＨ （株）ＷＩＳＨ",
+    "frontage": "西3.8m",
+    "phoneNumber": "08041683896",
+    "description": "",
+    "pdfUrl": "100132925739.pdf",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131101061",
+    "propertyNumber": "100131101061",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮２丁目",
+    "transactionType": "専任",
+    "price": 5080,
+    "zoneType": "一低",
+    "transactionStatus": "申込あり",
+    "buildingCoverage": 40,
+    "size": 99.28,
+    "pricePerSqm": 51.2,
+    "pricePerTsubo": 169.2,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　12分",
+    "floorAreaRatio": 80,
+    "roadAccess": "一方",
+    "company": "大成有楽不動産販売（株）　練馬センター 大成有楽不動産販売（株）　練馬センター",
+    "frontage": "西3.8m",
+    "phoneNumber": "03-5912-6411",
+    "description": "",
+    "pdfUrl": "100131101061.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "小学校",
+        "distance": 450,
+        "time": "徒歩約6分"
+      },
+      {
+        "name": "中学校",
+        "distance": 600,
+        "time": "徒歩約8分"
+      },
+      {
+        "name": "スーパー",
+        "distance": 670,
+        "time": "徒歩約9分"
+      },
+      {
+        "name": "公園",
+        "distance": 370,
+        "time": "徒歩約5分"
+      },
+      {
+        "name": "コンビニ",
+        "distance": 660,
+        "time": "徒歩約9分"
+      },
+      {
+        "name": "総合病院",
+        "distance": 910,
+        "time": "徒歩約12分"
+      },
+      {
+        "name": "郵便局",
+        "distance": 470,
+        "time": "徒歩約6分"
+      },
+      {
+        "name": "銀行",
+        "distance": 740,
+        "time": "徒歩約10分"
+      },
+      {
+        "name": "図書館",
+        "distance": 1110,
+        "time": "徒歩約14分"
+      },
+      {
+        "name": "アーケードショッピングモール",
+        "distance": 1210,
+        "time": "徒歩約16分"
+      }
+    ],
+    "legalRestrictions": "高度地区（第三種高度地区）準防火地域（都区内）",
+    "salesConditions": "媒介",
+    "landShape": "不整形",
+    "stationFeatures": "西武鉄道新宿線 鷺ノ宮駅まで徒歩12分、西武池袋線 富士見台駅まで徒歩15分",
+    "businessHours": {
+      "open": "9:30",
+      "close": "18:30",
+      "closedDays": [
+        "毎週水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://www.example.com/image1.jpg",
+        "https://www.example.com/image2.jpg"
+      ],
+      "diagramUrl": "https://www.example.com/diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "なし",
+      "minimumPlotSize": 85,
+      "districtPlanning": "第一種低層住居専用地域"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "鷺ノ宮駅",
+        "distance": 960,
+        "time": "徒歩12分"
+      },
+      {
+        "station": "富士見台駅",
+        "distance": 1200,
+        "time": "徒歩15分"
+      }
+    ],
+    "busStop": {
+      "distance": 300,
+      "time": "徒歩約4分"
+    },
+    "contractConditions": "条件不明",
+    "referencePlan": "なし",
+    "lastUpdated": "2023年3月28日"
+  },
+  {
+    "title": "100132718610",
+    "propertyNumber": "100132718610",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "専属",
+    "price": 5400,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 68.5,
+    "pricePerSqm": 78.9,
+    "pricePerTsubo": 260.7,
+    "station": "中央線　高円寺",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "東3.4m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130653285",
+    "propertyNumber": "100130653285",
+    "propertyType": "売地",
+    "location": "東京都中野区本町２丁目",
+    "transactionType": "売主",
+    "price": 9480,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 77.78,
+    "pricePerSqm": 121.9,
+    "pricePerTsubo": 403,
+    "station": "丸ノ内線　中野坂上",
+    "access": "徒歩　3分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "（株）ランドスケープ （株）ランドスケープ",
+    "frontage": "西3.5m",
+    "phoneNumber": "045-370-7180",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132922772",
+    "propertyNumber": "100132922772",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町３丁目",
+    "transactionType": "売主",
+    "price": 6299,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 84.15,
+    "pricePerSqm": 74.9,
+    "pricePerTsubo": 247.5,
+    "station": "中央線　高円寺",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 150,
+    "roadAccess": "-",
+    "company": "（株）ザ・ハウス （株）ザ・ハウス",
+    "frontage": "-",
+    "phoneNumber": "03-6303-0577",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132708042",
+    "propertyNumber": "100132708042",
+    "propertyType": "売地",
+    "location": "東京都中野区野方３丁目",
+    "transactionType": "一般",
+    "price": 11500,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 165.17,
+    "pricePerSqm": 69.7,
+    "pricePerTsubo": 230.2,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）イナ・エステート （株）イナ・エステート",
+    "frontage": "-",
+    "phoneNumber": "03-3997-3907",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132119133",
+    "propertyNumber": "100132119133",
+    "propertyType": "売地",
+    "location": "東京都中野区江古田２丁目",
+    "transactionType": "専属",
+    "price": 11000,
+    "zoneType": "近商",
+    "transactionStatus": "申込あり",
+    "buildingCoverage": 60,
+    "size": 131,
+    "pricePerSqm": 84,
+    "pricePerTsubo": 277.6,
+    "station": "大江戸線　新江古田",
+    "access": "徒歩　11分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　練馬営業センター 住友不動産販売（株）　練馬営業センター",
+    "frontage": "北西4.9m",
+    "phoneNumber": "050-3112-8314",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132484256",
+    "propertyNumber": "100132484256",
+    "propertyType": "売地",
+    "location": "東京都中野区中央４丁目",
+    "transactionType": "専任",
+    "price": 9380,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 115.43,
+    "pricePerSqm": 81.3,
+    "pricePerTsubo": 268.7,
+    "station": "中央線　中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "北3m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131971150",
+    "propertyNumber": "100131971150",
+    "propertyType": "売地",
+    "location": "東京都中野区上高田４丁目",
+    "transactionType": "専任",
+    "price": 25000,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 70,
+    "size": 282.99,
+    "pricePerSqm": 88.4,
+    "pricePerTsubo": 292.1,
+    "station": "大江戸線　中井",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "角地",
+    "company": "住友不動産販売（株）　阿佐ヶ谷営業センター 住友不動産販売（株）　阿佐ヶ谷営業センター",
+    "frontage": "北3.5m",
+    "phoneNumber": "050-3112-9805",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131695221",
+    "propertyNumber": "100131695221",
+    "propertyType": "売地",
+    "location": "東京都中野区野方３丁目",
+    "transactionType": "一般",
+    "price": 11500,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 165.17,
+    "pricePerSqm": 69.7,
+    "pricePerTsubo": 230.2,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野センター 三井不動産リアルティ（株）三井のリハウス中野センター",
+    "frontage": "南西5.8m",
+    "phoneNumber": "03-3385-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132907018",
+    "propertyNumber": "100132907018",
+    "propertyType": "売地",
+    "location": "東京都中野区南台４丁目",
+    "transactionType": "専任",
+    "price": 6500,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 62.33,
+    "pricePerSqm": 104.3,
+    "pricePerTsubo": 344.8,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　11分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "大和ハウス工業（株）　東京本店 大和ハウス工業（株）　東京本店",
+    "frontage": "西5.7m",
+    "phoneNumber": "08059355609",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132904892",
+    "propertyNumber": "100132904892",
+    "propertyType": "売地",
+    "location": "東京都中野区中野５丁目",
+    "transactionType": "売主",
+    "price": 12500,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 87.91,
+    "pricePerSqm": 142.2,
+    "pricePerTsubo": 470.1,
+    "station": "中央線　中野",
+    "access": "徒歩　9分",
+    "floorAreaRatio": 160,
+    "roadAccess": "角地",
+    "company": "（株）コスモジャパン （株）コスモジャパン",
+    "frontage": "北西2.8m",
+    "phoneNumber": "03-3754-8051",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130643078",
+    "propertyNumber": "100130643078",
+    "propertyType": "売地",
+    "location": "東京都中野区野方１丁目",
+    "transactionType": "専属",
+    "price": 1600,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 35.54,
+    "pricePerSqm": 45.1,
+    "pricePerTsubo": 148.9,
+    "station": "中央線　高円寺",
+    "access": "徒歩　15分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "㈱ニッケンコーポレーション ㈱ニッケンコーポレーション",
+    "frontage": "4m",
+    "phoneNumber": "0488380080",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131293175",
+    "propertyNumber": "100131293175",
+    "propertyType": "売地",
+    "location": "東京都中野区鷺宮３丁目",
+    "transactionType": "専属",
+    "price": 8480,
+    "zoneType": "一低",
+    "transactionStatus": "申込あり",
+    "buildingCoverage": 50,
+    "size": 128.93,
+    "pricePerSqm": 65.8,
+    "pricePerTsubo": 217.5,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "角地",
+    "company": "野村不動産ソリューションズ（株）　中野センター 野村不動産ソリューションズ（株）　中野センター",
+    "frontage": "北3.6m",
+    "phoneNumber": "03-5318-5141",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132691835",
+    "propertyNumber": "100132691835",
+    "propertyType": "売地",
+    "location": "東京都中野区南台３丁目",
+    "transactionType": "売主",
+    "price": 11980,
+    "zoneType": "近商",
+    "transactionStatus": "-",
+    "buildingCoverage": 80,
+    "size": 204.19,
+    "pricePerSqm": 58.7,
+    "pricePerTsubo": 194,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 300,
+    "roadAccess": "二方",
+    "company": "（株）やまもと笑店 （株）やまもと笑店",
+    "frontage": "西4m",
+    "phoneNumber": "0345638578",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132738014",
+    "propertyNumber": "100132738014",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町１丁目",
+    "transactionType": "専任",
+    "price": 18000,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 113.15,
+    "pricePerSqm": 159.1,
+    "pricePerTsubo": 525.9,
+    "station": "大江戸線　西新宿五丁目",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野坂上センター 三井不動産リアルティ（株）三井のリハウス中野坂上センター",
+    "frontage": "南西2.7m",
+    "phoneNumber": "03-5338-8831",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132863642",
+    "propertyNumber": "100132863642",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺１丁目",
+    "transactionType": "売主",
+    "price": 5980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 134.53,
+    "pricePerSqm": 44.5,
+    "pricePerTsubo": 147,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 150,
+    "roadAccess": "-",
+    "company": "（株）千代田シェアルティＡ＆Ｓ （株）千代田シェアルティＡ＆Ｓ",
+    "frontage": "-",
+    "phoneNumber": "03-3511-0155",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132425812",
+    "propertyNumber": "100132425812",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮３丁目",
+    "transactionType": "専任",
+    "price": 7160,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 129.14,
+    "pricePerSqm": 55.5,
+    "pricePerTsubo": 183.3,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス荻窪センター 三井不動産リアルティ（株）三井のリハウス荻窪センター",
+    "frontage": "北西4m",
+    "phoneNumber": "03-3392-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132861230",
+    "propertyNumber": "100132861230",
+    "propertyType": "売地",
+    "location": "東京都中野区南台５丁目",
+    "transactionType": "売主",
+    "price": 5880,
+    "zoneType": "準工",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 143.44,
+    "pricePerSqm": 41,
+    "pricePerTsubo": 135.6,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　4分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "（株）ジョイテック （株）ジョイテック",
+    "frontage": "西4m",
+    "phoneNumber": "03-6427-8981",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131678632",
+    "propertyNumber": "100131678632",
+    "propertyType": "売地",
+    "location": "東京都中野区江古田４丁目",
+    "transactionType": "専任",
+    "price": 7400,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 102.75,
+    "pricePerSqm": 72.1,
+    "pricePerTsubo": 238.1,
+    "station": "西武新宿線　沼袋",
+    "access": "徒歩　12分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "積水ハウス不動産（株）　東京営業所 積水ハウス不動産（株）　東京営業所",
+    "frontage": "西6m",
+    "phoneNumber": "03-5350-3369",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132179810",
+    "propertyNumber": "100132179810",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺３丁目",
+    "transactionType": "専任",
+    "price": 9000,
+    "zoneType": "一低",
+    "transactionStatus": "申込あり",
+    "buildingCoverage": 50,
+    "size": 165.39,
+    "pricePerSqm": 54.5,
+    "pricePerTsubo": 179.9,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "ダイヤ不動産（株） ダイヤ不動産（株）",
+    "frontage": "-",
+    "phoneNumber": "0339901116",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100129444811",
+    "propertyNumber": "100129444811",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "売主",
+    "price": 5180,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 70.64,
+    "pricePerSqm": 73.4,
+    "pricePerTsubo": 242.5,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）グローベルス （株）グローベルス",
+    "frontage": "北4.8m",
+    "phoneNumber": "09054335660",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132071497",
+    "propertyNumber": "100132071497",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "一般",
+    "price": 9880,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 98.25,
+    "pricePerSqm": 100.6,
+    "pricePerTsubo": 332.5,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　石神井営業センター 住友不動産販売（株）　石神井営業センター",
+    "frontage": "南3.9m",
+    "phoneNumber": "050-3112-8312",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132410447",
+    "propertyNumber": "100132410447",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮５丁目",
+    "transactionType": "専任",
+    "price": 3700,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 40,
+    "size": 65.1,
+    "pricePerSqm": 56.9,
+    "pricePerTsubo": 187.9,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 80,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　石神井営業センター 住友不動産販売（株）　石神井営業センター",
+    "frontage": "南4m",
+    "phoneNumber": "050-3112-8312",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132835288",
+    "propertyNumber": "100132835288",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "専任",
+    "price": 5580,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 62.11,
+    "pricePerSqm": 89.9,
+    "pricePerTsubo": 297,
+    "station": "中央線　高円寺",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 300,
+    "roadAccess": "一方",
+    "company": "（株）オープンハウス　売却サポート部 （株）オープンハウス　売却サポート部",
+    "frontage": "西4m",
+    "phoneNumber": "0334007749",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131784415",
+    "propertyNumber": "100131784415",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町１丁目",
+    "transactionType": "専任",
+    "price": 7980,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 67.1,
+    "pricePerSqm": 119,
+    "pricePerTsubo": 393.2,
+    "station": "丸ノ内方南　中野新橋",
+    "access": "徒歩　9分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "大成有楽不動産販売（株）　新宿センター 大成有楽不動産販売（株）　新宿センター",
+    "frontage": "南東6.1m",
+    "phoneNumber": "03-6457-4331",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131810064",
+    "propertyNumber": "100131810064",
+    "propertyType": "売地",
+    "location": "東京都中野区野方３丁目",
+    "transactionType": "一般",
+    "price": 11500,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 165.17,
+    "pricePerSqm": 69.7,
+    "pricePerTsubo": 230.2,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "野村不動産ソリューションズ（株）　中野センター 野村不動産ソリューションズ（株）　中野センター",
+    "frontage": "南西5.8m",
+    "phoneNumber": "03-5318-5141",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132737975",
+    "propertyNumber": "100132737975",
+    "propertyType": "売地",
+    "location": "東京都中野区松が丘１丁目",
+    "transactionType": "専任",
+    "price": 4480,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 48.66,
+    "pricePerSqm": 92.1,
+    "pricePerTsubo": 304.4,
+    "station": "西武新宿線　新井薬師前",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "角地",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野センター 三井不動産リアルティ（株）三井のリハウス中野センター",
+    "frontage": "北3.9m",
+    "phoneNumber": "03-3385-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132730744",
+    "propertyNumber": "100132730744",
+    "propertyType": "売地",
+    "location": "東京都中野区本町６丁目",
+    "transactionType": "専属",
+    "price": 22900,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 192.79,
+    "pricePerSqm": 118.8,
+    "pricePerTsubo": 392.7,
+    "station": "丸ノ内線　新中野",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "西3.1m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100125009278",
+    "propertyNumber": "100125009278",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮３丁目",
+    "transactionType": "一般",
+    "price": 8980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 197.96,
+    "pricePerSqm": 45.4,
+    "pricePerTsubo": 150,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　阿佐ヶ谷営業センター 住友不動産販売（株）　阿佐ヶ谷営業センター",
+    "frontage": "北西3.7m",
+    "phoneNumber": "050-3112-9805",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132796497",
+    "propertyNumber": "100132796497",
+    "propertyType": "売地",
+    "location": "東京都中野区中野１丁目",
+    "transactionType": "売主",
+    "price": 6180,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 45.13,
+    "pricePerSqm": 137,
+    "pricePerTsubo": 452.7,
+    "station": "中央線　中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 200,
+    "roadAccess": "角地",
+    "company": "㈱マイライフプランニング　川口営業所 ㈱マイライフプランニング　川口営業所",
+    "frontage": "北西",
+    "phoneNumber": "048-228-5050",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132524993",
+    "propertyNumber": "100132524993",
+    "propertyType": "売地",
+    "location": "東京都中野区南台４丁目",
+    "transactionType": "売主",
+    "price": 6490,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 79,
+    "pricePerSqm": 82.2,
+    "pricePerTsubo": 271.6,
+    "station": "京王線　笹塚",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 160,
+    "roadAccess": "-",
+    "company": "（株）エスケーホーム （株）エスケーホーム",
+    "frontage": "-",
+    "phoneNumber": "03-5339-1566",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132524988",
+    "propertyNumber": "100132524988",
+    "propertyType": "売地",
+    "location": "東京都中野区南台４丁目",
+    "transactionType": "売主",
+    "price": 6490,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 79,
+    "pricePerSqm": 82.2,
+    "pricePerTsubo": 271.6,
+    "station": "京王線　笹塚",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 160,
+    "roadAccess": "-",
+    "company": "（株）エスケーホーム （株）エスケーホーム",
+    "frontage": "-",
+    "phoneNumber": "03-5339-1566",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132524985",
+    "propertyNumber": "100132524985",
+    "propertyType": "売地",
+    "location": "東京都中野区南台４丁目",
+    "transactionType": "売主",
+    "price": 6190,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 81,
+    "pricePerSqm": 76.5,
+    "pricePerTsubo": 252.7,
+    "station": "京王線　笹塚",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 160,
+    "roadAccess": "-",
+    "company": "（株）エスケーホーム （株）エスケーホーム",
+    "frontage": "-",
+    "phoneNumber": "03-5339-1566",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132199086",
+    "propertyNumber": "100132199086",
+    "propertyType": "売地",
+    "location": "東京都中野区東中野２丁目",
+    "transactionType": "専属",
+    "price": 3480,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 51.52,
+    "pricePerSqm": 67.6,
+    "pricePerTsubo": 223.3,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "相続不動産（株） 相続不動産（株）",
+    "frontage": "-",
+    "phoneNumber": "080-7364-9542",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132776951",
+    "propertyNumber": "100132776951",
+    "propertyType": "売地",
+    "location": "東京都中野区中野５丁目",
+    "transactionType": "一般",
+    "price": 120,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 4.87,
+    "pricePerSqm": 24.7,
+    "pricePerTsubo": 81.5,
+    "station": "中央線　中野",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 200,
+    "roadAccess": "-",
+    "company": "ご利益不動産（株） ご利益不動産（株）",
+    "frontage": "-",
+    "phoneNumber": "09025332555",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132768100",
+    "propertyNumber": "100132768100",
+    "propertyType": "借地権",
+    "location": "東京都中野区大和町１丁目",
+    "transactionType": "専任",
+    "price": 2550,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 115.56,
+    "pricePerSqm": 22.1,
+    "pricePerTsubo": 73,
+    "station": "中央線　高円寺",
+    "access": "徒歩　11分",
+    "floorAreaRatio": 200,
+    "roadAccess": "二方",
+    "company": "（株）親和商事 （株）親和商事",
+    "frontage": "北3.3m",
+    "phoneNumber": "0333301515",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130177576",
+    "propertyNumber": "100130177576",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮２丁目",
+    "transactionType": "専任",
+    "price": 13800,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 50,
+    "size": 218.18,
+    "pricePerSqm": 63.3,
+    "pricePerTsubo": 209.1,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　11分",
+    "floorAreaRatio": 80,
+    "roadAccess": "角地",
+    "company": "住友不動産販売（株）　阿佐ヶ谷営業センター 住友不動産販売（株）　阿佐ヶ谷営業センター",
+    "frontage": "東4m",
+    "phoneNumber": "050-3112-9805",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132434098",
+    "propertyNumber": "100132434098",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "一般",
+    "price": 10980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 132.9,
+    "pricePerSqm": 82.7,
+    "pricePerTsubo": 273.2,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三菱地所ハウスネット（株）　荻窪営業所 三菱地所ハウスネット（株）　荻窪営業所",
+    "frontage": "3.4m",
+    "phoneNumber": "03-6276-9460",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131760935",
+    "propertyNumber": "100131760935",
+    "propertyType": "売地",
+    "location": "東京都中野区鷺宮６丁目",
+    "transactionType": "売主",
+    "price": 6180,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 100.03,
+    "pricePerSqm": 61.8,
+    "pricePerTsubo": 204.3,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）ナミキ （株）ナミキ",
+    "frontage": "東4.5m",
+    "phoneNumber": "03-3939-0061",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132033009",
+    "propertyNumber": "100132033009",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町２丁目",
+    "transactionType": "専任",
+    "price": 5480,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 75.89,
+    "pricePerSqm": 72.3,
+    "pricePerTsubo": 238.8,
+    "station": "中央線　高円寺",
+    "access": "徒歩　15分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）大和・アクタス （株）大和・アクタス",
+    "frontage": "-",
+    "phoneNumber": "03-5364-4800",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131840415",
+    "propertyNumber": "100131840415",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "一般",
+    "price": 9880,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 98.34,
+    "pricePerSqm": 100.5,
+    "pricePerTsubo": 332.2,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三菱地所ハウスネット（株）　池袋営業所 三菱地所ハウスネット（株）　池袋営業所",
+    "frontage": "4m",
+    "phoneNumber": "03-3981-3400",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132303669",
+    "propertyNumber": "100132303669",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺２丁目",
+    "transactionType": "一般",
+    "price": 3980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 70.2,
+    "pricePerSqm": 56.7,
+    "pricePerTsubo": 187.5,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　9分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "ミサワホーム不動産（株）　本社 ミサワホーム不動産（株）　本社",
+    "frontage": "5.4m",
+    "phoneNumber": "080-3248-1378",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130706534",
+    "propertyNumber": "100130706534",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "専任",
+    "price": 6480,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 40,
+    "size": 136.29,
+    "pricePerSqm": 47.6,
+    "pricePerTsubo": 157.2,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 80,
+    "roadAccess": "一方",
+    "company": "リヴウェル（株） リヴウェル（株）",
+    "frontage": "北東3.8m",
+    "phoneNumber": "03-6382-4223",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100120447684",
+    "propertyNumber": "100120447684",
+    "propertyType": "底地権",
+    "location": "東京都中野区上高田１丁目",
+    "transactionType": "専属",
+    "price": 1680,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 70,
+    "size": 112.46,
+    "pricePerSqm": 15,
+    "pricePerTsubo": 49.4,
+    "station": "中央線　中野",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 150,
+    "roadAccess": "角地",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "北2.7m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131413458",
+    "propertyNumber": "100131413458",
+    "propertyType": "売地",
+    "location": "東京都中野区松が丘２丁目",
+    "transactionType": "売主",
+    "price": 2980,
+    "zoneType": "近商",
+    "transactionStatus": "-",
+    "buildingCoverage": 80,
+    "size": 79,
+    "pricePerSqm": 37.8,
+    "pricePerTsubo": 124.7,
+    "station": "西武新宿線　沼袋",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 300,
+    "roadAccess": "一方",
+    "company": "㈱ライトアップ ㈱ライトアップ",
+    "frontage": "-",
+    "phoneNumber": "048-840-2311",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "300131010793",
+    "propertyNumber": "300131010793",
+    "propertyType": "売地",
+    "location": "東京都中野区上高田４丁目",
+    "transactionType": "専属",
+    "price": 2380,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 41.09,
+    "pricePerSqm": 58,
+    "pricePerTsubo": 191.5,
+    "station": "大江戸線　中井",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "ＢｉｔＨｏｍｅ（株） ＢｉｔＨｏｍｅ（株）",
+    "frontage": "西6m",
+    "phoneNumber": "06-6616-9698",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131608279",
+    "propertyNumber": "100131608279",
+    "propertyType": "売地",
+    "location": "東京都中野区本町６丁目",
+    "transactionType": "専任",
+    "price": 8980,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 89.32,
+    "pricePerSqm": 100.6,
+    "pricePerTsubo": 332.4,
+    "station": "丸ノ内線　新中野",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "みずほ不動産販売（株）　池袋営業部 みずほ不動産販売（株）　池袋営業部",
+    "frontage": "東3.9m",
+    "phoneNumber": "03-3590-1001",
+    "description": "",
+    "pdfUrl": "100131608279.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "まいばすけっと中野本町4丁目店",
+        "distance": 315,
+        "time": "徒歩約4分"
+      },
+      {
+        "name": "ファミリーマート中野中央五丁目店",
+        "distance": 260,
+        "time": "徒歩約4分"
+      },
+      {
+        "name": "東京警察病院",
+        "distance": 400,
+        "time": "徒歩約6分"
+      },
+      {
+        "name": "明和立高等学校・附属中学校",
+        "distance": 745,
+        "time": "徒歩約10分"
+      }
+    ],
+    "legalRestrictions": "建ぺい率：60%、容積率：200%",
+    "salesConditions": "建築条件なし",
+    "landShape": "間口 8m以上",
+    "stationFeatures": "東京メトロ丸ノ内線『新中野』駅より徒歩約7分\n『東高円寺』駅より徒歩約9分",
+    "businessHours": {
+      "open": "未記載",
+      "close": "未記載",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg"
+      ],
+      "diagramUrl": "https://example.com/diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": "準工業地域"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "新中野駅",
+        "distance": 0,
+        "time": "徒歩約7分"
+      },
+      {
+        "station": "東高円寺駅",
+        "distance": 0,
+        "time": "徒歩約9分"
+      }
+    ],
+    "busStop": {
+      "distance": 0,
+      "time": "未記載"
+    },
+    "contractConditions": "建築条件なし",
+    "referencePlan": "未記載",
+    "lastUpdated": "未記載"
+  },
+  {
+    "title": "100131754034",
+    "propertyNumber": "100131754034",
+    "propertyType": "売地",
+    "location": "東京都中野区松が丘１丁目",
+    "transactionType": "代理",
+    "price": 19180,
+    "zoneType": "近商",
+    "transactionStatus": "-",
+    "buildingCoverage": 80,
+    "size": 210.83,
+    "pricePerSqm": 91,
+    "pricePerTsubo": 300.8,
+    "station": "西武新宿線　新井薬師前",
+    "access": "徒歩　2分",
+    "floorAreaRatio": 300,
+    "roadAccess": "-",
+    "company": "（株）伯建 （株）伯建",
+    "frontage": "南西5m",
+    "phoneNumber": "03-5343-3355",
+    "description": "",
+    "pdfUrl": "100131754034.pdf",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "20m高度地区、第三種高度地区、準防火地域",
+    "salesConditions": "所有権移転登記費用買主負担",
+    "landShape": "図面参照",
+    "stationFeatures": "徒歩圏内",
+    "businessHours": {
+      "open": "10:00",
+      "close": "19:00",
+      "closedDays": [
+        "火曜日",
+        "水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": "https://example.com/land-diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "拡幅計画なし",
+      "minimumPlotSize": 100,
+      "districtPlanning": "市街化区域、準住居地域"
+    },
+    "optimalUsage": "共同住宅",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "新宿駅",
+        "distance": 1100,
+        "time": "徒歩14分"
+      }
+    ],
+    "busStop": {
+      "distance": 400,
+      "time": "徒歩5分"
+    },
+    "contractConditions": "引渡条件：現況有姿",
+    "referencePlan": "図面あり",
+    "lastUpdated": "2023-10-03"
+  },
+  {
+    "title": "100132020189",
+    "propertyNumber": "100132020189",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町２丁目",
+    "transactionType": "専属",
+    "price": 30000,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 327.38,
+    "pricePerSqm": 91.7,
+    "pricePerTsubo": 303,
+    "station": "中央線　高円寺",
+    "access": "徒歩　15分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "東5.5m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "100132020189.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "やばせ内科クリニック",
+        "distance": 100,
+        "time": "徒歩3分"
+      },
+      {
+        "name": "トップパルケ",
+        "distance": 240,
+        "time": "徒歩3分"
+      },
+      {
+        "name": "コモディイイダ",
+        "distance": 300,
+        "time": "徒歩4分"
+      },
+      {
+        "name": "ニトリドン・キホーテ",
+        "distance": 530,
+        "time": "徒歩7分"
+      },
+      {
+        "name": "杉山公園",
+        "distance": 670,
+        "time": "徒歩9分"
+      },
+      {
+        "name": "区立松が丘小学校",
+        "distance": 750,
+        "time": "徒歩10分"
+      }
+    ],
+    "legalRestrictions": "景観法",
+    "salesConditions": "建築条件はありません",
+    "landShape": "ほぼ正方形",
+    "stationFeatures": "JR中央線「高円寺」駅徒歩15分、西武新宿線「野方」駅徒歩11分",
+    "businessHours": {
+      "open": "9:30",
+      "close": "18:00",
+      "closedDays": [
+        "水曜日",
+        "第1・3火曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://www.livable.co.jp",
+        "https://www.livable.co.jp"
+      ],
+      "diagramUrl": "https://www.livable.co.jp"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "5.5m公道に接道",
+      "minimumPlotSize": 0,
+      "districtPlanning": "第1種低層住居専用地域内"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "JR中央線「高円寺」",
+        "distance": 1200,
+        "time": "徒歩15分"
+      },
+      {
+        "station": "西武新宿線「野方」",
+        "distance": 880,
+        "time": "徒歩11分"
+      }
+    ],
+    "busStop": {
+      "distance": 670,
+      "time": "徒歩9分"
+    },
+    "contractConditions": "建築条件ありません",
+    "referencePlan": "お好きなハウスメーカーで建築可能です",
+    "lastUpdated": "2024年1月1日"
+  },
+  {
+    "title": "100131059810",
+    "propertyNumber": "100131059810",
+    "propertyType": "売地",
+    "location": "東京都中野区野方４丁目",
+    "transactionType": "専属",
+    "price": 19240,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 247.81,
+    "pricePerSqm": 77.7,
+    "pricePerTsubo": 256.7,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　4分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "西3.9m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "100131059810.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "中野区立野方第一小学校",
+        "distance": 150,
+        "time": "徒歩約2分"
+      },
+      {
+        "name": "ファミリーマート野方店",
+        "distance": 350,
+        "time": "徒歩約5分"
+      },
+      {
+        "name": "サガン野方",
+        "distance": 400,
+        "time": "徒歩約6分"
+      },
+      {
+        "name": "中野山形屋病院",
+        "distance": 380,
+        "time": "徒歩約5分"
+      }
+    ],
+    "legalRestrictions": "準防火地域",
+    "salesConditions": "現況渡し",
+    "landShape": "不整形",
+    "stationFeatures": "西武新宿線 野方駅 徒歩約4分",
+    "businessHours": {
+      "open": "9:00",
+      "close": "18:00",
+      "closedDays": [
+        "水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150"
+      ],
+      "diagramUrl": "https://via.placeholder.com/diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "公道 幅員3.9m",
+      "minimumPlotSize": 100,
+      "districtPlanning": "第一種低層住居専用地域"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "野方駅",
+        "distance": 320,
+        "time": "徒歩約4分"
+      }
+    ],
+    "busStop": {
+      "distance": 300,
+      "time": "徒歩約4分"
+    },
+    "contractConditions": "建築条件なし",
+    "referencePlan": "なし",
+    "lastUpdated": "2023-09-27"
+  },
+  {
+    "title": "100132423769",
+    "propertyNumber": "100132423769",
+    "propertyType": "売地",
+    "location": "東京都中野区上高田１丁目",
+    "transactionType": "専任",
+    "price": 13150,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 161.04,
+    "pricePerSqm": 81.7,
+    "pricePerTsubo": 270,
+    "station": "中央線　中野",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三菱地所ハウスネット（株）　荻窪営業所 三菱地所ハウスネット（株）　荻窪営業所",
+    "frontage": "南4m",
+    "phoneNumber": "03-6276-9460",
+    "description": "",
+    "pdfUrl": "100132423769.pdf",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [
+      {
+        "name": "ローソンストア100 中野5丁目店",
+        "distance": 160,
+        "time": "約2分"
+      },
+      {
+        "name": "コモディイイダ 中野店",
+        "distance": 160,
+        "time": "約2分"
+      },
+      {
+        "name": "まいばすけっと 中野弥生町店",
+        "distance": 480,
+        "time": "約6分"
+      },
+      {
+        "name": "業務スーパー 石黒中野弥生店",
+        "distance": 590,
+        "time": "約8分"
+      },
+      {
+        "name": "中野BROADWAY",
+        "distance": 890,
+        "time": "約11分"
+      },
+      {
+        "name": "スギ薬局 中野北店",
+        "distance": 460,
+        "time": "約6分"
+      },
+      {
+        "name": "吉野家 中野店",
+        "distance": 160,
+        "time": "約2分"
+      }
+    ],
+    "legalRestrictions": "建ぺい率60％・容積率150％",
+    "salesConditions": "更地渡し",
+    "landShape": "南側の整形地",
+    "stationFeatures": "総武・中央緩行線「中野」駅 徒歩14分",
+    "businessHours": {
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        "火曜日・水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://example.com/image1.jpg"
+      ],
+      "diagramUrl": "https://example.com/diagram.jpg"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "前面4m道路に接道",
+      "minimumPlotSize": 161,
+      "districtPlanning": "準工業地域"
+    },
+    "optimalUsage": "一世帯住宅",
+    "privateRoadBurden": true,
+    "nearbyStations": [
+      {
+        "station": "中野駅",
+        "distance": 14,
+        "time": "徒歩14分"
+      },
+      {
+        "station": "東中野駅",
+        "distance": 13,
+        "time": "徒歩13分"
+      },
+      {
+        "station": "新井薬師前駅",
+        "distance": 12,
+        "time": "徒歩12分"
+      }
+    ],
+    "busStop": {
+      "distance": 160,
+      "time": "徒歩2分"
+    },
+    "contractConditions": "契約不適合責任免責",
+    "referencePlan": "南向きの整形地",
+    "lastUpdated": "2023年5月25日"
+  },
+  {
+    "title": "100129998714",
+    "propertyNumber": "100129998714",
+    "propertyType": "売地",
+    "location": "東京都中野区中央４丁目",
+    "transactionType": "専任",
+    "price": 7380,
+    "zoneType": "一中",
+    "transactionStatus": "申込あり",
+    "buildingCoverage": 60,
+    "size": 72.81,
+    "pricePerSqm": 101.4,
+    "pricePerTsubo": 335.1,
+    "station": "丸ノ内線　新中野",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス高田馬場センター 三井不動産リアルティ（株）三井のリハウス高田馬場センター",
+    "frontage": "西2.7m",
+    "phoneNumber": "03-3204-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132637241",
+    "propertyNumber": "100132637241",
+    "propertyType": "売地",
+    "location": "東京都中野区東中野２丁目",
+    "transactionType": "専任",
+    "price": 22000,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 455.2,
+    "pricePerSqm": 48.4,
+    "pricePerTsubo": 159.8,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）シティクルーズ （株）シティクルーズ",
+    "frontage": "南3.3m",
+    "phoneNumber": "03-6380-3637",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131491501",
+    "propertyNumber": "100131491501",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "専任",
+    "price": 4980,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 60.35,
+    "pricePerSqm": 82.6,
+    "pricePerTsubo": 272.8,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "東3.8m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132596582",
+    "propertyNumber": "100132596582",
+    "propertyType": "売地",
+    "location": "東京都中野区東中野１丁目",
+    "transactionType": "専任",
+    "price": 3280,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 45.22,
+    "pricePerSqm": 72.6,
+    "pricePerTsubo": 239.8,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "フジミ不動産販売（株） フジミ不動産販売（株）",
+    "frontage": "西2.1m",
+    "phoneNumber": "03-5364-9160",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132592608",
+    "propertyNumber": "100132592608",
+    "propertyType": "売地",
+    "location": "東京都中野区鷺宮６丁目",
+    "transactionType": "一般",
+    "price": 5980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 88.3,
+    "pricePerSqm": 67.8,
+    "pricePerTsubo": 223.9,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 150,
+    "roadAccess": "-",
+    "company": "（株）Ｅｎｔｅｒ　Ｐｌａｎ （株）Ｅｎｔｅｒ　Ｐｌａｎ",
+    "frontage": "-",
+    "phoneNumber": "03-5906-5641",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132499092",
+    "propertyNumber": "100132499092",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "一般",
+    "price": 10980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 132.9,
+    "pricePerSqm": 82.7,
+    "pricePerTsubo": 273.2,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "-",
+    "company": "三井住友トラスト不動産（株）　高円寺センター 三井住友トラスト不動産（株）　高円寺センター",
+    "frontage": "南西3.5m",
+    "phoneNumber": "03-3330-6082",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132298358",
+    "propertyNumber": "100132298358",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "一般",
+    "price": 10980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 132.9,
+    "pricePerSqm": 82.7,
+    "pricePerTsubo": 273.2,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "南3.5m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131915239",
+    "propertyNumber": "100131915239",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "一般",
+    "price": 9880,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 40,
+    "size": 98.34,
+    "pricePerSqm": 100.5,
+    "pricePerTsubo": 332.2,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 80,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　練馬センター 東急リバブル（株）　練馬センター",
+    "frontage": "南東4m",
+    "phoneNumber": "03-5912-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130739730",
+    "propertyNumber": "100130739730",
+    "propertyType": "売地",
+    "location": "東京都中野区東中野３丁目",
+    "transactionType": "専任",
+    "price": 19800,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 178.65,
+    "pricePerSqm": 110.9,
+    "pricePerTsubo": 366.4,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　4分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　中野センター 東急リバブル（株）　中野センター",
+    "frontage": "北西3.2m",
+    "phoneNumber": "03-5345-1090",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100128665127",
+    "propertyNumber": "100128665127",
+    "propertyType": "売地",
+    "location": "東京都中野区鷺宮４丁目",
+    "transactionType": "専属",
+    "price": 8980,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 105.16,
+    "pricePerSqm": 85.4,
+    "pricePerTsubo": 282.3,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　3分",
+    "floorAreaRatio": 300,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "東10m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132107650",
+    "propertyNumber": "100132107650",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "一般",
+    "price": 14770,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 180.87,
+    "pricePerSqm": 81.7,
+    "pricePerTsubo": 270,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "東急リバブル（株）　高円寺センター 東急リバブル（株）　高円寺センター",
+    "frontage": "東4m",
+    "phoneNumber": "03-6859-9109",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132554635",
+    "propertyNumber": "100132554635",
+    "propertyType": "売地",
+    "location": "東京都中野区南台３丁目",
+    "transactionType": "一般",
+    "price": 6280,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 62.12,
+    "pricePerSqm": 101.1,
+    "pricePerTsubo": 334.2,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "エルフォルク不動産（株） エルフォルク不動産（株）",
+    "frontage": "南東3.6m",
+    "phoneNumber": "090-6793-5283",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131750052",
+    "propertyNumber": "100131750052",
+    "propertyType": "売地",
+    "location": "東京都中野区南台３丁目",
+    "transactionType": "一般",
+    "price": 6180,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 61.04,
+    "pricePerSqm": 101.3,
+    "pricePerTsubo": 334.7,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "エルフォルク不動産（株） エルフォルク不動産（株）",
+    "frontage": "南東3.6m",
+    "phoneNumber": "090-6793-5283",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132546702",
+    "propertyNumber": "100132546702",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺３丁目",
+    "transactionType": "専属",
+    "price": 4980,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 50,
+    "size": 163.41,
+    "pricePerSqm": 30.5,
+    "pricePerTsubo": 100.8,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）無限学舎 （株）無限学舎",
+    "frontage": "-",
+    "phoneNumber": "09035211030",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130957782",
+    "propertyNumber": "100130957782",
+    "propertyType": "売地",
+    "location": "東京都中野区江原町２丁目",
+    "transactionType": "専任",
+    "price": 23000,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 250.46,
+    "pricePerSqm": 91.9,
+    "pricePerTsubo": 303.6,
+    "station": "大江戸線　新江古田",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "二方",
+    "company": "住友不動産販売（株）　八重洲営業センター 住友不動産販売（株）　八重洲営業センター",
+    "frontage": "東7.8m",
+    "phoneNumber": "050-3112-9832",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132526940",
+    "propertyNumber": "100132526940",
+    "propertyType": "売地",
+    "location": "東京都中野区南台４丁目",
+    "transactionType": "売主",
+    "price": 16000,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 177.73,
+    "pricePerSqm": 90.1,
+    "pricePerTsubo": 297.7,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　12分",
+    "floorAreaRatio": 160,
+    "roadAccess": "一方",
+    "company": "平住建（株） 平住建（株）",
+    "frontage": "南西3.7m",
+    "phoneNumber": "03-5876-8918",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131757051",
+    "propertyNumber": "100131757051",
+    "propertyType": "売地",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "一般",
+    "price": 9300,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 95.31,
+    "pricePerSqm": 97.6,
+    "pricePerTsubo": 322.6,
+    "station": "丸ノ内線　中野坂上",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 160,
+    "roadAccess": "角地",
+    "company": "住友不動産販売（株）　本社第２営業センター 住友不動産販売（株）　本社第２営業センター",
+    "frontage": "南西4m",
+    "phoneNumber": "050-3112-9915",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130950606",
+    "propertyNumber": "100130950606",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町５丁目",
+    "transactionType": "専任",
+    "price": 3600,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 38.52,
+    "pricePerSqm": 93.5,
+    "pricePerTsubo": 309,
+    "station": "丸ノ内方南　中野富士見町",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 150,
+    "roadAccess": "-",
+    "company": "（株）大秀不動産 （株）大秀不動産",
+    "frontage": "-",
+    "phoneNumber": "03-5350-1641",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131998625",
+    "propertyNumber": "100131998625",
+    "propertyType": "売地",
+    "location": "東京都中野区沼袋４丁目",
+    "transactionType": "専任",
+    "price": 7000,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 109.61,
+    "pricePerSqm": 63.9,
+    "pricePerTsubo": 211.2,
+    "station": "西武新宿線　沼袋",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 300,
+    "roadAccess": "一方",
+    "company": "明治住建（株）　川越店 明治住建（株）　川越店",
+    "frontage": "南4m",
+    "phoneNumber": "049-298-6582",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132452875",
+    "propertyNumber": "100132452875",
+    "propertyType": "売地",
+    "location": "東京都中野区中央４丁目",
+    "transactionType": "売主",
+    "price": 4280,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 43.32,
+    "pricePerSqm": 98.8,
+    "pricePerTsubo": 326.7,
+    "station": "中央線　中野",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "五大アセットパートナーズ（株） 五大アセットパートナーズ（株）",
+    "frontage": "東4.1m",
+    "phoneNumber": "03-5843-0147",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132032883",
+    "propertyNumber": "100132032883",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "一般",
+    "price": 14770,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 181.3,
+    "pricePerSqm": 81.5,
+    "pricePerTsubo": 269.4,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）西家 （株）西家",
+    "frontage": "東4m",
+    "phoneNumber": "03-6450-2408",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132111383",
+    "propertyNumber": "100132111383",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "一般",
+    "price": 9880,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 98.34,
+    "pricePerSqm": 100.5,
+    "pricePerTsubo": 332.2,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "野村不動産ソリューションズ（株）　練馬センター 野村不動産ソリューションズ（株）　練馬センター",
+    "frontage": "南4m",
+    "phoneNumber": "03-5946-3211",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132274155",
+    "propertyNumber": "100132274155",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町４丁目",
+    "transactionType": "一般",
+    "price": 10980,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 132.9,
+    "pricePerSqm": 82.7,
+    "pricePerTsubo": 273.2,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス高円寺センター 三井不動産リアルティ（株）三井のリハウス高円寺センター",
+    "frontage": "南西3.4m",
+    "phoneNumber": "03-3315-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131325234",
+    "propertyNumber": "100131325234",
+    "propertyType": "売地",
+    "location": "東京都中野区野方４丁目",
+    "transactionType": "専任",
+    "price": 3980,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 56.06,
+    "pricePerSqm": 71,
+    "pricePerTsubo": 234.7,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野センター 三井不動産リアルティ（株）三井のリハウス中野センター",
+    "frontage": "南2.6m",
+    "phoneNumber": "03-3385-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131325246",
+    "propertyNumber": "100131325246",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮２丁目",
+    "transactionType": "専任",
+    "price": 8980,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 40,
+    "size": 174.8,
+    "pricePerSqm": 51.4,
+    "pricePerTsubo": 169.9,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 80,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス田無センター 三井不動産リアルティ（株）三井のリハウス田無センター",
+    "frontage": "南4m",
+    "phoneNumber": "042-467-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132227075",
+    "propertyNumber": "100132227075",
+    "propertyType": "売地",
+    "location": "東京都中野区野方１丁目",
+    "transactionType": "専属",
+    "price": 5980,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 59.33,
+    "pricePerSqm": 100.8,
+    "pricePerTsubo": 333.2,
+    "station": "中央線　高円寺",
+    "access": "徒歩　13分",
+    "floorAreaRatio": 240,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "北西2.6m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131632337",
+    "propertyNumber": "100131632337",
+    "propertyType": "売地",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "一般",
+    "price": 9300,
+    "zoneType": "-",
+    "transactionStatus": "-",
+    "buildingCoverage": null,
+    "size": 95.31,
+    "pricePerSqm": 97.6,
+    "pricePerTsubo": 322.6,
+    "station": "丸ノ内線　中野坂上",
+    "access": "徒歩　8分",
+    "floorAreaRatio": null,
+    "roadAccess": "角地",
+    "company": "昭和建物（株） 昭和建物（株）",
+    "frontage": "-",
+    "phoneNumber": "03-5370-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100118733903",
+    "propertyNumber": "100118733903",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺２丁目",
+    "transactionType": "専任",
+    "price": 4580,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 50,
+    "size": 92.78,
+    "pricePerSqm": 49.4,
+    "pricePerTsubo": 163.2,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "大成有楽不動産販売（株）　荻窪センター 大成有楽不動産販売（株）　荻窪センター",
+    "frontage": "西3.7m",
+    "phoneNumber": "03-5347-0911",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130231657",
+    "propertyNumber": "100130231657",
+    "propertyType": "売地",
+    "location": "東京都中野区大和町２丁目",
+    "transactionType": "専任",
+    "price": 5280,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 68.64,
+    "pricePerSqm": 77,
+    "pricePerTsubo": 254.3,
+    "station": "総武中央線　高円寺",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス高円寺センター 三井不動産リアルティ（株）三井のリハウス高円寺センター",
+    "frontage": "東4m",
+    "phoneNumber": "03-3315-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100124188511",
+    "propertyNumber": "100124188511",
+    "propertyType": "売地",
+    "location": "東京都中野区本町４丁目",
+    "transactionType": "専属",
+    "price": 4480,
+    "zoneType": "一住",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 32.51,
+    "pricePerSqm": 137.9,
+    "pricePerTsubo": 455.6,
+    "station": "丸ノ内方南　中野新橋",
+    "access": "徒歩　3分",
+    "floorAreaRatio": 300,
+    "roadAccess": "二方",
+    "company": "（株）日税不動産情報センター　東京西支店 （株）日税不動産情報センター　東京西支店",
+    "frontage": "東11m",
+    "phoneNumber": "042-528-7757",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132261230",
+    "propertyNumber": "100132261230",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町３丁目",
+    "transactionType": "一般",
+    "price": 8000,
+    "zoneType": "-",
+    "transactionStatus": "-",
+    "buildingCoverage": null,
+    "size": 71.03,
+    "pricePerSqm": 112.7,
+    "pricePerTsubo": 372.4,
+    "station": "丸ノ内方南　中野新橋",
+    "access": "徒歩　9分",
+    "floorAreaRatio": null,
+    "roadAccess": "-",
+    "company": "モンスターハウス（株） モンスターハウス（株）",
+    "frontage": "-",
+    "phoneNumber": "09044799363",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132170558",
+    "propertyNumber": "100132170558",
+    "propertyType": "売地",
+    "location": "東京都中野区中野３丁目",
+    "transactionType": "一般",
+    "price": 29800,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 227.36,
+    "pricePerSqm": 131.1,
+    "pricePerTsubo": 433.3,
+    "station": "総武中央線　中野",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 168,
+    "roadAccess": "一方",
+    "company": "住友不動産販売（株）　中野営業センター 住友不動産販売（株）　中野営業センター",
+    "frontage": "南4.2m",
+    "phoneNumber": "050-3112-9811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132164155",
+    "propertyNumber": "100132164155",
+    "propertyType": "借地権",
+    "location": "東京都中野区本町４丁目",
+    "transactionType": "一般",
+    "price": 4980,
+    "zoneType": "-",
+    "transactionStatus": "-",
+    "buildingCoverage": null,
+    "size": 119.13,
+    "pricePerSqm": 41.9,
+    "pricePerTsubo": 138.2,
+    "station": "丸ノ内線　新中野",
+    "access": "徒歩　6分",
+    "floorAreaRatio": null,
+    "roadAccess": "一方",
+    "company": "同栄コンサルティング（株） 同栄コンサルティング（株）",
+    "frontage": "4m",
+    "phoneNumber": "03-3377-2811",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132042595",
+    "propertyNumber": "100132042595",
+    "propertyType": "売地",
+    "location": "東京都中野区中野３丁目",
+    "transactionType": "一般",
+    "price": 29800,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 227.36,
+    "pricePerSqm": 131.1,
+    "pricePerTsubo": 433.3,
+    "station": "中央線　中野",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野センター 三井不動産リアルティ（株）三井のリハウス中野センター",
+    "frontage": "南西4.2m",
+    "phoneNumber": "03-3385-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130975835",
+    "propertyNumber": "100130975835",
+    "propertyType": "売地",
+    "location": "東京都中野区野方６丁目",
+    "transactionType": "専任",
+    "price": 6180,
+    "zoneType": "一低",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 80.6,
+    "pricePerSqm": 76.7,
+    "pricePerTsubo": 253.5,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　4分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス荻窪センター 三井不動産リアルティ（株）三井のリハウス荻窪センター",
+    "frontage": "-",
+    "phoneNumber": "03-3392-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132103246",
+    "propertyNumber": "100132103246",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "一般",
+    "price": 7240,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 108.18,
+    "pricePerSqm": 67,
+    "pricePerTsubo": 221.3,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　6分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "住友林業ホームサービス（株）　中野店 住友林業ホームサービス（株）　中野店",
+    "frontage": "南3.7m",
+    "phoneNumber": "03-6382-8531",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132057591",
+    "propertyNumber": "100132057591",
+    "propertyType": "売地",
+    "location": "東京都中野区南台５丁目",
+    "transactionType": "一般",
+    "price": 22000,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 255.06,
+    "pricePerSqm": 86.3,
+    "pricePerTsubo": 285.2,
+    "station": "京王線　笹塚",
+    "access": "徒歩　14分",
+    "floorAreaRatio": 200,
+    "roadAccess": "角地",
+    "company": "ウルクル（株） ウルクル（株）",
+    "frontage": "東4m",
+    "phoneNumber": "03-6433-5301",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100130950671",
+    "propertyNumber": "100130950671",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮１丁目",
+    "transactionType": "一般",
+    "price": 7240,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 108.18,
+    "pricePerSqm": 67,
+    "pricePerTsubo": 221.3,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　7分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス高円寺センター 三井不動産リアルティ（株）三井のリハウス高円寺センター",
+    "frontage": "南3.7m",
+    "phoneNumber": "03-3315-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131045319",
+    "propertyNumber": "100131045319",
+    "propertyType": "売地",
+    "location": "東京都中野区若宮３丁目",
+    "transactionType": "専任",
+    "price": 3980,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 44.29,
+    "pricePerSqm": 89.9,
+    "pricePerTsubo": 297.1,
+    "station": "西武新宿線　都立家政",
+    "access": "徒歩　2分",
+    "floorAreaRatio": 300,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス高円寺センター 三井不動産リアルティ（株）三井のリハウス高円寺センター",
+    "frontage": "西5.2m",
+    "phoneNumber": "03-3315-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132097077",
+    "propertyNumber": "100132097077",
+    "propertyType": "売地",
+    "location": "東京都中野区松が丘１丁目",
+    "transactionType": "売主",
+    "price": 12800,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 169.38,
+    "pricePerSqm": 75.6,
+    "pricePerTsubo": 249.9,
+    "station": "西武新宿線　新井薬師前",
+    "access": "徒歩　3分",
+    "floorAreaRatio": 150,
+    "roadAccess": "三方",
+    "company": "（株）幸和トラスト （株）幸和トラスト",
+    "frontage": "北4m",
+    "phoneNumber": "03-5942-8780",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132080430",
+    "propertyNumber": "100132080430",
+    "propertyType": "売地",
+    "location": "東京都中野区江原町２丁目",
+    "transactionType": "売主",
+    "price": 3290,
+    "zoneType": "近商",
+    "transactionStatus": "-",
+    "buildingCoverage": 80,
+    "size": 32.96,
+    "pricePerSqm": 99.9,
+    "pricePerTsubo": 330,
+    "station": "大江戸線　新江古田",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 300,
+    "roadAccess": "二方",
+    "company": "（株）ＢＬＩＳＳ （株）ＢＬＩＳＳ",
+    "frontage": "南6m",
+    "phoneNumber": "03-5816-1172",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100132026984",
+    "propertyNumber": "100132026984",
+    "propertyType": "売地",
+    "location": "東京都中野区南台５丁目",
+    "transactionType": "一般",
+    "price": 22000,
+    "zoneType": "一中",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 255.06,
+    "pricePerSqm": 86.3,
+    "pricePerTsubo": 285.2,
+    "station": "丸ノ内方南　方南町",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 200,
+    "roadAccess": "-",
+    "company": "（株）三美ホームズ （株）三美ホームズ",
+    "frontage": "-",
+    "phoneNumber": "03-5454-5011",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131923827",
+    "propertyNumber": "100131923827",
+    "propertyType": "売地",
+    "location": "東京都中野区上鷺宮４丁目",
+    "transactionType": "一般",
+    "price": 9880,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 98.34,
+    "pricePerSqm": 100.5,
+    "pricePerTsubo": 332.2,
+    "station": "西武池袋線　富士見台",
+    "access": "徒歩　5分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス石神井公園センター 三井不動産リアルティ（株）三井のリハウス石神井公園センター",
+    "frontage": "南4m",
+    "phoneNumber": "03-3996-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131967563",
+    "propertyNumber": "100131967563",
+    "propertyType": "売地",
+    "location": "東京都中野区野方３丁目",
+    "transactionType": "一般",
+    "price": 11500,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 60,
+    "size": 165.17,
+    "pricePerSqm": 69.7,
+    "pricePerTsubo": 230.2,
+    "station": "西武新宿線　野方",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "三井住友トラスト不動産（株）　高円寺センター 三井住友トラスト不動産（株）　高円寺センター",
+    "frontage": "南5.6m",
+    "phoneNumber": "03-3330-6082",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131824361",
+    "propertyNumber": "100131824361",
+    "propertyType": "売地",
+    "location": "東京都中野区新井３丁目",
+    "transactionType": "専任",
+    "price": 3680,
+    "zoneType": "一中",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 44.32,
+    "pricePerSqm": 83.1,
+    "pricePerTsubo": 274.5,
+    "station": "中央線　中野",
+    "access": "徒歩　15分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野センター 三井不動産リアルティ（株）三井のリハウス中野センター",
+    "frontage": "西2.7m",
+    "phoneNumber": "03-3385-3131",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131828672",
+    "propertyNumber": "100131828672",
+    "propertyType": "売地",
+    "location": "東京都中野区中央４丁目",
+    "transactionType": "一般",
+    "price": 4480,
+    "zoneType": "-",
+    "transactionStatus": "-",
+    "buildingCoverage": null,
+    "size": 51.6,
+    "pricePerSqm": 86.9,
+    "pricePerTsubo": 287.1,
+    "station": "中央線　中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": null,
+    "roadAccess": "-",
+    "company": "（株）東宝ハウス杉並 （株）東宝ハウス杉並",
+    "frontage": "-",
+    "phoneNumber": "03-4332-7890",
+    "description": "",
+    "pdfUrl": "100131828672.pdf",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [
+      {
+        "name": "ライフ中野新井店",
+        "distance": 920,
+        "time": "徒歩11分"
+      },
+      {
+        "name": "セブンイレブン中野中央店",
+        "distance": 50,
+        "time": "徒歩1分"
+      },
+      {
+        "name": "ファミリーマート中野中央店",
+        "distance": 400,
+        "time": "徒歩5分"
+      },
+      {
+        "name": "平安堂工房八島",
+        "distance": 350,
+        "time": "徒歩4分"
+      },
+      {
+        "name": "中野区役所",
+        "distance": 850,
+        "time": "徒歩11分"
+      }
+    ],
+    "legalRestrictions": "建物解体費用:買主負担\n測量費用:買主負担",
+    "salesConditions": "現況引渡し",
+    "landShape": "変形",
+    "stationFeatures": "JR中央線『中野』駅徒歩10分",
+    "businessHours": {
+      "open": "09:00",
+      "close": "18:00",
+      "closedDays": [
+        "火曜日",
+        "水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "property_image_1.jpg",
+        "property_image_2.jpg"
+      ],
+      "diagramUrl": "https://example.com/land_diagram"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "43.51m",
+      "minimumPlotSize": 10,
+      "districtPlanning": "固定資産税都市計画税：480,343円/月"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "JR中央線『中野』駅",
+        "distance": 10,
+        "time": "徒歩10分"
+      }
+    ],
+    "busStop": {
+      "distance": 500,
+      "time": "徒歩6分"
+    },
+    "contractConditions": "なし",
+    "referencePlan": "新築プラン有り",
+    "lastUpdated": "2023年9月1日"
+  },
+  {
+    "title": "100131805728",
+    "propertyNumber": "100131805728",
+    "propertyType": "売地",
+    "location": "東京都中野区鷺宮４丁目",
+    "transactionType": "専任",
+    "price": 12000,
+    "zoneType": "-",
+    "transactionStatus": "公開中",
+    "buildingCoverage": null,
+    "size": 158.17,
+    "pricePerSqm": 75.9,
+    "pricePerTsubo": 250.9,
+    "station": "西武新宿線　鷺ノ宮",
+    "access": "徒歩　8分",
+    "floorAreaRatio": null,
+    "roadAccess": "-",
+    "company": "コクエイ不動産 コクエイ不動産",
+    "frontage": "-",
+    "phoneNumber": "03-3461-0711",
+    "description": "",
+    "pdfUrl": "100131805728.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "中野区鷺ノ宮図書館",
+        "distance": 364,
+        "time": "徒歩約4分"
+      },
+      {
+        "name": "中野区立若宮小学校",
+        "distance": 545,
+        "time": "徒歩約7分"
+      },
+      {
+        "name": "ルネサンス鷺ノ宮スポーツ施設",
+        "distance": 470,
+        "time": "徒歩約6分"
+      }
+    ],
+    "legalRestrictions": "第一種低層住居専用地域",
+    "salesConditions": "相談に応じます",
+    "landShape": "角地",
+    "stationFeatures": "西武新宿線、鷺ノ宮駅徒歩8分",
+    "businessHours": {
+      "open": "10:00",
+      "close": "18:00",
+      "closedDays": [
+        "水曜日",
+        "第1・第3火曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [
+        "https://www5a.biglobe.ne.jp/~kokuei/images/kokuei.jpg"
+      ],
+      "diagramUrl": "https://www5a.biglobe.ne.jp/~kokuei/images/kokuei.jpg"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "南側4m公道、西側4m公道",
+      "minimumPlotSize": 70,
+      "districtPlanning": "法22条区域"
+    },
+    "optimalUsage": "住宅",
+    "privateRoadBurden": true,
+    "nearbyStations": [
+      {
+        "station": "鷺ノ宮駅",
+        "distance": 580,
+        "time": "徒歩約8分"
+      }
+    ],
+    "busStop": {
+      "distance": 109,
+      "time": "徒歩約2分"
+    },
+    "contractConditions": "即引渡可",
+    "referencePlan": "古家付/所有権",
+    "lastUpdated": "2021年11月5日"
+  },
+  {
+    "title": "100124260189",
+    "propertyNumber": "100124260189",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町３丁目",
+    "transactionType": "専任",
+    "price": 30250,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 178.91,
+    "pricePerSqm": 169.1,
+    "pricePerTsubo": 559,
+    "station": "丸ノ内方南　中野新橋",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 300,
+    "roadAccess": "角地",
+    "company": "三井不動産リアルティ（株）三井のリハウス中野坂上センター 三井不動産リアルティ（株）三井のリハウス中野坂上センター",
+    "frontage": "南5.8m",
+    "phoneNumber": "03-5338-8831",
+    "description": "",
+    "pdfUrl": "100124260189.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "弥生保育園",
+        "distance": 390,
+        "time": "徒歩5分"
+      },
+      {
+        "name": "新渡戸文化中学校",
+        "distance": 560,
+        "time": "徒歩7分"
+      },
+      {
+        "name": "セブンイレブン中野弥生町1丁目店",
+        "distance": 960,
+        "time": "徒歩12分"
+      },
+      {
+        "name": "新宿区立新宿図書館",
+        "distance": 1510,
+        "time": "徒歩19分"
+      }
+    ],
+    "legalRestrictions": "防火地域",
+    "salesConditions": "現況渡し",
+    "landShape": "不整形",
+    "stationFeatures": "商業施設が豊富",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [
+        "https://www.example.com/image1.jpg",
+        "https://www.example.com/image2.jpg"
+      ],
+      "diagramUrl": "https://www.example.com/diagram.jpg"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "計画なし",
+      "minimumPlotSize": 80,
+      "districtPlanning": "準工業地域"
+    },
+    "optimalUsage": "住宅用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "中野新橋駅",
+        "distance": 640,
+        "time": "徒歩8分"
+      },
+      {
+        "station": "西新宿五丁目駅",
+        "distance": 880,
+        "time": "徒歩11分"
+      },
+      {
+        "station": "中野富士見町駅",
+        "distance": 1120,
+        "time": "徒歩14分"
+      }
+    ],
+    "busStop": {
+      "distance": 0,
+      "time": "-"
+    },
+    "contractConditions": "なし",
+    "referencePlan": "セットバック部分約4.1㎡含む",
+    "lastUpdated": "2023-燃料混合"
+  },
+  {
+    "title": "100129350242",
+    "propertyNumber": "100129350242",
+    "propertyType": "売地",
+    "location": "東京都中野区弥生町２丁目",
+    "transactionType": "専任",
+    "price": 8580,
+    "zoneType": "一住",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 60,
+    "size": 73.42,
+    "pricePerSqm": 116.9,
+    "pricePerTsubo": 386.4,
+    "station": "丸ノ内方南　中野新橋",
+    "access": "徒歩　3分",
+    "floorAreaRatio": 200,
+    "roadAccess": "一方",
+    "company": "（株）大京穴吹不動産　新宿店 （株）大京穴吹不動産　新宿店",
+    "frontage": "北5.4m",
+    "phoneNumber": "03-5909-7501",
+    "description": "",
+    "pdfUrl": "100129350242.pdf",
+    "hasLowRiseResidential": true,
+    "nearbyFacilities": [
+      {
+        "name": "マルエツ中野新橋店",
+        "distance": 480,
+        "time": ""
+      },
+      {
+        "name": "まいばすけっと中野弥生町三丁目店",
+        "distance": 630,
+        "time": ""
+      },
+      {
+        "name": "ローソンストア100中野新橋店",
+        "distance": 1040,
+        "time": ""
+      },
+      {
+        "name": "ファミリーマート中野弥生町二丁目店",
+        "distance": 1070,
+        "time": ""
+      },
+      {
+        "name": "中野区立本五ふれあい公園",
+        "distance": 230,
+        "time": ""
+      }
+    ],
+    "legalRestrictions": "-",
+    "salesConditions": "-",
+    "landShape": "台形",
+    "stationFeatures": "東京メトロ方南町支線「中野新橋駅」徒歩2分",
+    "businessHours": {
+      "open": "10:00",
+      "close": "18:30",
+      "closedDays": [
+        "火曜日",
+        "水曜日"
+      ]
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": "https://www.daikyo-anabukic.co.jp/"
+    },
+    "urbanPlanning": {
+      "roadExpansion": "北側4.3m",
+      "minimumPlotSize": 0,
+      "districtPlanning": "準防火地域"
+    },
+    "optimalUsage": "住宅",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "中野新橋駅",
+        "distance": 170,
+        "time": "徒歩3分"
+      }
+    ],
+    "busStop": {
+      "distance": 0,
+      "time": "-"
+    },
+    "contractConditions": "-",
+    "referencePlan": "-",
+    "lastUpdated": "2023年2月10日"
+  },
+  {
+    "title": "100131676060",
+    "propertyNumber": "100131676060",
+    "propertyType": "売地",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "専属",
+    "price": 9800,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 419.14,
+    "pricePerSqm": 23.4,
+    "pricePerTsubo": 77.3,
+    "station": "丸ノ内方南　中野坂上",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 400,
+    "roadAccess": "二方",
+    "company": "（株）シーアイマネジメント （株）シーアイマネジメント",
+    "frontage": "北10.1m",
+    "phoneNumber": "03-6277-5110",
+    "description": "",
+    "pdfUrl": "100131676060.pdf",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [
+      {
+        "name": "東中野駅",
+        "distance": 800,
+        "time": "徒歩10分"
+      },
+      {
+        "name": "中野坂上駅",
+        "distance": 800,
+        "time": "徒歩10分"
+      }
+    ],
+    "legalRestrictions": "計画道路の指定があります。",
+    "salesConditions": "現況有姿売買。",
+    "landShape": "北側公道幅員10.9m、南側公道幅員4.5m",
+    "stationFeatures": "JR総武中央線「東中野」駅徒歩10分。東京メトロ丸ノ内線「中野坂上」駅徒歩10分。",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "是正工事要計画。",
+      "minimumPlotSize": 186.29,
+      "districtPlanning": "市街化区域"
+    },
+    "optimalUsage": "マンション建設用地",
+    "privateRoadBurden": false,
+    "nearbyStations": [
+      {
+        "station": "東中野駅",
+        "distance": 800,
+        "time": "10分"
+      },
+      {
+        "station": "中野坂上駅",
+        "distance": 800,
+        "time": "10分"
+      }
+    ],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "貸借期間は2030年1月30日まで。",
+    "referencePlan": "",
+    "lastUpdated": "令和6年7月21日現在"
+  },
+  {
+    "title": "100131675588",
+    "propertyNumber": "100131675588",
+    "propertyType": "売地",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "専属",
+    "price": 9800,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 419.14,
+    "pricePerSqm": 23.4,
+    "pricePerTsubo": 77.3,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 400,
+    "roadAccess": "二方",
+    "company": "（株）シーアイマネジメント （株）シーアイマネジメント",
+    "frontage": "北10.1m",
+    "phoneNumber": "03-6277-5110",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131675552",
+    "propertyNumber": "100131675552",
+    "propertyType": "底地権",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "専属",
+    "price": 9800,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 419.14,
+    "pricePerSqm": 23.4,
+    "pricePerTsubo": 77.3,
+    "station": "丸ノ内線　中野坂上",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 400,
+    "roadAccess": "二方",
+    "company": "（株）シーアイマネジメント （株）シーアイマネジメント",
+    "frontage": "北10.1m",
+    "phoneNumber": "03-6277-5110",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131675512",
+    "propertyNumber": "100131675512",
+    "propertyType": "底地権",
+    "location": "東京都中野区中央２丁目",
+    "transactionType": "専属",
+    "price": 9800,
+    "zoneType": "近商",
+    "transactionStatus": "公開中",
+    "buildingCoverage": 80,
+    "size": 419.14,
+    "pricePerSqm": 23.4,
+    "pricePerTsubo": 77.3,
+    "station": "総武中央線　東中野",
+    "access": "徒歩　10分",
+    "floorAreaRatio": 400,
+    "roadAccess": "二方",
+    "company": "（株）シーアイマネジメント （株）シーアイマネジメント",
+    "frontage": "北10.9m",
+    "phoneNumber": "03-6277-5110",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  },
+  {
+    "title": "100131609365",
+    "propertyNumber": "100131609365",
+    "propertyType": "売地",
+    "location": "東京都中野区白鷺３丁目",
+    "transactionType": "売主",
+    "price": 3480,
+    "zoneType": "一低",
+    "transactionStatus": "-",
+    "buildingCoverage": 50,
+    "size": 99.33,
+    "pricePerSqm": 35.1,
+    "pricePerTsubo": 115.9,
+    "station": "西武新宿線　下井草",
+    "access": "徒歩　8分",
+    "floorAreaRatio": 150,
+    "roadAccess": "一方",
+    "company": "（株）ネクステン （株）ネクステン",
+    "frontage": "西",
+    "phoneNumber": "03-6419-7740",
+    "description": "",
+    "pdfUrl": "",
+    "hasLowRiseResidential": false,
+    "nearbyFacilities": [],
+    "legalRestrictions": "",
+    "salesConditions": "",
+    "landShape": "",
+    "stationFeatures": "",
+    "businessHours": {
+      "open": "",
+      "close": "",
+      "closedDays": []
+    },
+    "visualFeatures": {
+      "images": [],
+      "diagramUrl": ""
+    },
+    "urbanPlanning": {
+      "roadExpansion": "",
+      "minimumPlotSize": 0,
+      "districtPlanning": ""
+    },
+    "optimalUsage": "",
+    "privateRoadBurden": false,
+    "nearbyStations": [],
+    "busStop": {
+      "distance": 0,
+      "time": ""
+    },
+    "contractConditions": "",
+    "referencePlan": "",
+    "lastUpdated": ""
+  }
+]
